@@ -1,0 +1,161 @@
+@main: #242b33;
+@white: #fff;
+@black: #1f252b;
+@sub-bg: #f6f6f6;
+@act-1: #5d2f8f;
+@act-2: #d91820;
+@act-3: #fe311a;
+@topic: #4f5e70;
+@txt-box: #191d22;
+@load: #b3b5b8;
+@button: #191d22;
+@breadcrumb : #9caabb;
+@tabs-active : #e3e2e2;
+
+@main-font:	'db_helvethaica_x45_li';
+@med: 'db_helvethaica_x65_med';
+@med2: 'db_helvethaica_x67_medcond';
+@cond: 'db_helvethaica_x57_cond';
+@reg: 'db_helvethaica_x55_regular';
+@bold: 'db_helvethaica_x75_bd';
+@blk: 'db_helvethaica_x87_blkcond';
+@li: 'db_helvethaica_x47_licond';
+@thin: 'db_helvethaica_x37_thincond';
+@uli: 'db_helvethaica_x25_ulli';
+
+.radius(@rad: 50%) {
+	-webkit-border-radius: @rad;
+	-moz-border-radius: @rad;
+	border-radius: @rad;
+}
+
+.ani-delay(@time: 0s) {
+	-webkit-animation-delay: @time;
+	animation-delay: @time;
+}
+
+.skewY(@px: 0px) {
+	-ms-transform: skewY(@px);
+	-moz-transform: skewY(@px);
+	-webkit-transform: skewY(@px);
+	transform: skewY(@px);
+}
+
+.rotate(@deg: 180deg) {
+	-ms-transform: rotate(@deg);
+	-moz-transform: rotate(@deg);
+	-webkit-transform: rotate(@deg);
+	transform: rotate(@deg);
+}
+
+.trans(@time: 0.3s) {
+	-webkit-transition: all @time ease-in-out 0s;
+	-moz-transition: all @time ease-in-out 0s;
+	-o-transition: all @time ease-in-out 0s;
+	-ms-transition: all @time ease-in-out 0s;
+	transition: all @time ease-in-out 0s;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+
+.trans-in(@time: 0.3s) {
+	-webkit-transition: all @time ease-in 0s;
+	-moz-transition: all @time ease-in 0s;
+	-o-transition: all @time ease-in 0s;
+	-ms-transition: all @time ease-in 0s;
+	transition: all @time ease-in 0s;
+}
+
+.trans-out(@time: 0.3s) {
+	-webkit-transition: all @time ease-out 0s;
+	-moz-transition: all @time ease-out 0s;
+	-o-transition: all @time ease-out 0s;
+	-ms-transition: all @time ease-out 0s;
+	transition: all @time ease-out 0s;
+}
+
+.trans-3d(@x: 0, @y: 0, @z: 0) {
+	-webkit-transform: translate3d(@x, @y, @z);
+	-moz-transform: translate3d(@x, @y, @z);
+	-ms-transform: translate3d(@x, @y, @z);
+	-o-transform: translate3d(@x, @y, @z);
+	transform: translate3d(@x, @y, @z);
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+
+.trf (@x: -50%, @y: -50%) {
+	-webkit-transform: translate(@x, @y);
+	-moz-transform: translate(@x, @y);
+	-ms-transform: translate(@x, @y);
+	-o-transform: translate(@x, @y);
+	transform: translate(@x, @y);
+}
+
+.trf-center (@x: -50%, @y: -50%) {
+	-webkit-transform: translate(@x, @y);
+	-moz-transform: translate(@x, @y);
+	-ms-transform: translate(@x, @y);
+	-o-transform: translate(@x, @y);
+	transform: translate(@x, @y);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+.trf-x (@x: -50%) {
+	-webkit-transform: translateX(@x);
+	-moz-transform: translateX(@x);
+	-ms-transform: translateX(@x);
+	-o-transform: translateX(@x);
+	transform: translateX(@x);
+}
+
+.trf-y (@y: -50%) {
+	-webkit-transform: translateY(@y);
+	-moz-transform: translateY(@y);
+	-ms-transform: translateY(@y);
+	-o-transform: translateY(@y);
+	transform: translateY(@y);
+	top: 50%;
+	position: absolute;
+}
+
+.scale-3d(@x: 0, @y: 0, @z: 0, @scale: 0){
+	-webkit-transform: translate3d(@x, @y, @z) scale(@scale);
+	-moz-transform: translate3d(@x, @y, @z) scale(@scale);
+	-ms-transform: translate3d(@x, @y, @z) scale(@scale);
+	-o-transform: translate3d(@x, @y, @z) scale(@scale);
+	transform: translate3d(@x, @y, @z) scale(@scale);
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+
+.scale(@size: 2) {
+	-ms-transform: scale(@size) rotate(0.02deg);
+	-webkit-transform: scale(@size) rotate(0.02deg);
+	transform: scale(@size) rotate(0.02deg);
+}
+
+.delay(@time: 0.3s) {
+	-webkit-transition-delay: @time;
+	transition-delay: @time;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
