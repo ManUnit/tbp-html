@@ -758,7 +758,7 @@ include 'inc/header.php';
 						<div class="image">
 							<img src="images/home/vdo-01_370x210.jpg" alt="">
 						</div>
-						<a href="" class="play-vdo"></a>
+						<a data-fancybox href="https://www.youtube.com/watch?v=LVYUss6pJqQ" class="play-vdo"></a>
 					</div>
 					<div class="vdo-item">
 						<div class="txt-box">
@@ -770,7 +770,7 @@ include 'inc/header.php';
 						<div class="image">
 							<img src="images/home/vdo-02_370x210.jpg" alt="">
 						</div>
-						<a href="" class="play-vdo"></a>
+						<a data-fancybox href="https://www.youtube.com/watch?v=pD2Bl0ZhBRQ" class="play-vdo"></a>
 					</div>
 					<div class="vdo-item">
 						<div class="txt-box">
@@ -782,7 +782,7 @@ include 'inc/header.php';
 						<div class="image">
 							<img src="images/home/vdo-03_370x210.jpg" alt="">
 						</div>
-						<a href="" class="play-vdo"></a>
+						<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
 					</div>
 					<div class="button-control">
 						<a href="" class="btn-view clr_1">View More</a>

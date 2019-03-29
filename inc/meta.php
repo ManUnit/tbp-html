@@ -13,8 +13,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <link rel="image_src" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
+    <link rel="image_src" href="images/favicon.jpg">
 
     <!--[if IE]>
         <script src="js/main/html5shiv.js"></script>
