@@ -22,12 +22,12 @@ $(document).ready(function () {
 		dots: false,
 		arrows: false,
 		infinite: true,
-		speed: 2500,
+		speed: 1200,
 		autoplaySpeed: 3500,
 		pauseOnHover: false,
 		pauseOnFocus: false,
-		fade: true,
-		cssEase: 'ease'
+		// fade: true,
+		// cssEase: 'ease'
 	});
 
 	var $product_slide = $('.products-slide .slider-control');
