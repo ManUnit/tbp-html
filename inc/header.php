@@ -69,19 +69,19 @@
 			<div class="main-menu">
 				<ul>
 					<li>
-						<a href="">Home</a>
+						<a href="" class="animated-button victoria-four">Home</a>
 					</li>
 					<li class="sub-menu">
-						<a href="">Search Products</a>
+						<a href="" class="animated-button victoria-four">Search Products</a>
 					</li>
 					<li>
-						<a href="">Join Us</a>
+						<a href="" class="animated-button victoria-four">Join Us</a>
 					</li>
 					<li>
-						<a href="">My Service</a>
+						<a href="" class="animated-button victoria-four">My Service</a>
 					</li>
 					<li>
-						<a href="">Contact Us</a>
+						<a href="" class="animated-button victoria-four">Contact Us</a>
 					</li>
 				</ul>
 			</div>

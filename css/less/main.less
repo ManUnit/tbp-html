@@ -184,6 +184,88 @@ body {
 	}
 }
 
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	// margin: 30px auto 0;
+	// padding: 14px 15px;
+	color: #fff;
+	// font-size:14px;
+	// font-weight: bold;
+	// text-align: center;
+	text-decoration: none;
+	// text-transform: uppercase;
+	overflow: hidden;
+	// letter-spacing: .08em;
+	// border-radius: 0;
+	// text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	// margin: 30px auto 0;
+	// padding: 14px 15px;
+	// color: #fff;
+	// font-size:14px;
+	border-radius: 0;
+	// font-weight: bold;
+	// text-align: center;
+	text-decoration: none;
+	// text-transform: uppercase;
+	overflow: hidden;
+	// letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+/* Victoria Buttons */
+a.animated-button.victoria-four {
+	// border: 2px solid #D24D57;
+}
+a.animated-button.victoria-four:after {
+	background: @act-1;
+	opacity: 1;
+	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.victoria-four:hover:after {
+	opacity: 1;
+	height: 600% !important;
+}
+
+
+
 .main-header {
 	.clear;
 	padding-top: 20px;
@@ -254,7 +336,7 @@ body {
 				> li {
 					display: inline-block;
 					float: left;
-					padding:  0 35px;
+					padding:  0 30px;
 					list-style: none;
 					position: relative;
 
@@ -395,12 +477,24 @@ body {
 				padding: 0;
 				float: left;
 
+				&::after {
+					content: "";
+					height: 100%;
+					width: 500px;
+					background: @act-2;
+					position: absolute;
+					left: 99%;
+					top: 0;
+					z-index: 0;
+				}
+
 				li {
 					display: inline-block;
 					float: left;
 					width: 20%;
 					position: relative;
 					z-index: 100;
+					background: @act-2;
 
 					&::before {
 						content: "";
@@ -411,6 +505,7 @@ body {
 						width: 1px;
 						background: @white;
 						opacity: 0.35;
+						z-index: 20;
 					}
 
 					&:first-child {
@@ -422,21 +517,6 @@ body {
 						}
 					}
 
-					&:last-child {
-						a {
-							&::after {
-								content: "";
-								height: 100%;
-								width: 500px;
-								background: @act-2;
-								position: absolute;
-								right: -400px;
-								top: 0;
-								z-index: 0;
-							}
-						}
-					}
-
 					a {
 						.clear;
 						float: left;
@@ -445,7 +525,17 @@ body {
 						padding: 10px;
 						color: @white;
 						line-height: 1;
-						background: @act-2;
+						position: relative;
+						z-index: 10;
+						font-family: @reg;
+						border: none;
+
+						// &:hover {
+						// 	&::after {
+						// 		visibility: visible;
+						// 		height: 100%;
+						// 	}
+						// }
 					}
 				}
 			}
