@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DAGO - Concrete Batching Plants</title>
+    <title>Thailand Business Pages</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -31,9 +31,10 @@
     <link rel="stylesheet" href="js/plugin/flagstrap/flags.css">
     <link rel="stylesheet" href="js/plugin/slick/slick.css">
     <link rel="stylesheet" href="js/plugin/nice-select/nice-select.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/plugin/flagstrap/flags.css">
     <link rel="stylesheet" href="js/plugin/bar-rating/css-stars.css">
-     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <script type="text/javascript" src="js/main/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="js/main/main.js"></script>

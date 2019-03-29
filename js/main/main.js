@@ -63,6 +63,9 @@ $(document).ready(function () {
 		placeholder: false
 	});
 
+	$('.counter').countUp();
+
+
 	/* select language on mobile */
 	// $('#options_mobile').flagStrap({
 	// 	countries: { "ENG": "ENGLISH", "TH": "THAI" },

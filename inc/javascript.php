@@ -12,6 +12,8 @@
 	<script type="text/javascript" src="js/plugin/parallax.js"></script>
 	<script type="text/javascript" src="js/plugin/animateScroll.js"></script>
 	<script type="text/javascript" src="js/plugin/bar-rating/jquery.barrating.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.countup.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/plugin/gmaps.js"></script>
 
 </body>

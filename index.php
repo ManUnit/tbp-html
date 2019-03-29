@@ -5,7 +5,7 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 
-<!-- <div class="main-banner">
+<div class="main-banner">
 	<div class="slider-control">
 		<div class="item">
 			<picture class="image">
@@ -26,7 +26,7 @@ include 'inc/header.php';
 			</picture>
 		</div>
 	</div>
-</div> -->
+</div>
 
 <div class="section-control specials-products">
 	<div class="container">
@@ -621,12 +621,12 @@ include 'inc/header.php';
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-9">
-				<div class="title-box">
-					<h3>Latest News</h3>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+				<div class="news-wrapper">
+					<div class="title-box">
+						<h3>Latest News</h3>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -645,9 +645,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -666,9 +664,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -687,9 +683,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -708,9 +702,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -729,9 +721,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="news-wrapper">
+						<div class="col-sm-4">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -754,16 +744,241 @@ include 'inc/header.php';
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="title-box">
-					<h3>Hot Videos</h3>
+				<div class="vdo-wrapper">
+					<div class="title-box">
+						<h3>Hot Videos</h3>
+					</div>
+					<div class="vdo-item">
+						<div class="txt-box">
+							<p>
+								The industrial revolution
+								brought about great change
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/home/vdo-01_370x210.jpg" alt="">
+						</div>
+						<a href="" class="play-vdo"></a>
+					</div>
+					<div class="vdo-item">
+						<div class="txt-box">
+							<p>
+								The industrial revolution
+								brought about great change
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/home/vdo-02_370x210.jpg" alt="">
+						</div>
+						<a href="" class="play-vdo"></a>
+					</div>
+					<div class="vdo-item">
+						<div class="txt-box">
+							<p>
+								Make In India- Innovation
+								In Automobile Industry
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/home/vdo-03_370x210.jpg" alt="">
+						</div>
+						<a href="" class="play-vdo"></a>
+					</div>
+					<div class="button-control">
+						<a href="" class="btn-view clr_1">View More</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-
-
+<div class="section-control bg-attachment industries">
+	<div class="container">
+		<div class="category-wrapper">
+			<div class="title-group">
+				<h3>Industry Solution Experiences</h3>
+				<p>Serving 15 Industries</p>
+			</div>
+			<div class="row-wrapper">
+				<div class="category-item item-offset-4">
+					<div class="inner-wrapper clr-01">
+						<a href="#"></a>
+						<p>Construction</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-01_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-02">
+						<a href="#"></a>
+						<p>Machinery</p>
+					</div>
+				</div>
+			</div>
+			<div class="row-wrapper">
+				<div class="category-item item-offset-2">
+					<div class="inner-wrapper clr-03">
+						<a href="#"></a>
+						<p>Tools & Instruments</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-02">
+						<a href="#"></a>
+						<p>Material Handling</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-02_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-03">
+						<a href="#"></a>
+						<p>Valves Pumps Pipes</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-01">
+						<a href="#"></a>
+						<p>Metal & Metal Working</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-02">
+						<a href="#"></a>
+						<p>Chemical Plastics Gas</p>
+					</div>
+				</div>
+			</div>
+			<div class="row-wrapper">
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-03_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-01">
+						<a href="#"></a>
+						<p>Electric Power</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-04_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-03">
+						<a href="#"></a>
+						<p>Packaging & Storaging</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-01">
+						<a href="#"></a>
+						<p>Automotive Industry</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-02">
+						<a href="#"></a>
+						<p>Renewable Energy</p>
+					</div>
+				</div>
+			</div>
+			<div class="row-wrapper">
+				<div class="category-item item-offset-1">
+					<div class="inner-wrapper clr-03">
+						<a href="#"></a>
+						<p>Office Automation</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-02">
+						<a href="#"></a>
+						<p>Air Conditioning</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-01">
+						<a href="#"></a>
+						<p>Logistics & Transpot</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-05_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper clr-03">
+						<a href="#"></a>
+						<p>Services Business</p>
+					</div>
+				</div>
+				<div class="category-item">
+					<div class="inner-wrapper">
+						<a href="#"></a>
+						<div class="image">
+							<img src="images/home/item-06_240x240.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-control counter-number">
+	<div class="container">
+		<ul class="number-control">
+			<li class="number-wrapper">
+				<div class="num counter">3,600</div>
+				<div class="txt">Products</div>
+			</li>
+			<li class="number-wrapper">
+				<div class="num counter">60</div>
+				<div class="txt">Categories</div>
+			</li>
+			<li class="number-wrapper">
+				<div class="num counter">1,250</div>
+				<div class="txt">Brands</div>
+			</li>
+			<li class="number-wrapper">
+				<div class="num counter">720</div>
+				<div class="txt">Suppliers</div>
+			</li>
+			<li class="number-wrapper">
+				<div class="num counter">50,217</div>
+				<div class="txt">Customers</div>
+			</li>
+			<li class="number-wrapper">
+				<div class="num counter">7,500</div>
+				<div class="txt">Member</div>
+			</li>
+		</ul>
+	</div>
+</div>
 
 <?php include 'inc/footer.php';?>
 <?php include 'inc/javascript.php';?>
