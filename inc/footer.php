@@ -1,4 +1,4 @@
-<div class="main-footer">
+<div class="main-footer scroll-event">
 	<div class="container">
 		<div class="figure">
 			<img src="images/home/figure_300x200.png" alt="">

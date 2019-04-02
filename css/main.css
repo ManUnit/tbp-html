@@ -1537,6 +1537,12 @@ a.animated-button.victoria-four:hover:after {
   -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
   transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
+.section-control.industries .category-item .inner-wrapper.no-clr {
+  background: none;
+}
+.section-control.industries .category-item .inner-wrapper.no-clr::after {
+  display: none;
+}
 .section-control.industries .category-item .inner-wrapper.clr-01 {
   background: #38308f;
 }
@@ -1704,6 +1710,7 @@ a.animated-button.victoria-four:hover:after {
   display: inline-block;
   width: 100%;
   position: relative;
+  float: left;
   padding-bottom: 50px;
   background: url('../images/home/bg-footer_1920x210.png') right bottom no-repeat;
 }
@@ -1900,4 +1907,804 @@ a.animated-button.victoria-four:hover:after {
 }
 .main-footer .menu-wrapper ul li a:hover {
   color: #d91820;
+}
+/* Animate Homepage */
+.main-header {
+  -webkit-transition: all 0.65s ease-in-out 0s;
+  -moz-transition: all 0.65s ease-in-out 0s;
+  -o-transition: all 0.65s ease-in-out 0s;
+  -ms-transition: all 0.65s ease-in-out 0s;
+  transition: all 0.65s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  top: -50px;
+}
+.main-header.active {
+  opacity: 1;
+  top: 0;
+  visibility: visible;
+}
+.main-banner {
+  -webkit-transition: all 1.2s ease-in-out 0s;
+  -moz-transition: all 1.2s ease-in-out 0s;
+  -o-transition: all 1.2s ease-in-out 0s;
+  -ms-transition: all 1.2s ease-in-out 0s;
+  transition: all 1.2s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+.main-banner.active {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+.fadeOff {
+  opacity: 0;
+  visibility: hidden;
+}
+.fadeOn {
+  visibility: visible;
+  opacity: 1;
+}
+.section-control.specials-products .banner-wrapper .banner-top {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  top: 200px;
+  z-index: -1;
+}
+.section-control.specials-products .banner-wrapper .banner-top .txt-box h3 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: -100px;
+}
+.section-control.specials-products .banner-wrapper .banner-top .txt-box p {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  right: -100px;
+}
+.section-control.specials-products .banner-wrapper .banner-top .image-box {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  top: 200px;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom {
+  background: #ffffff;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .txt-box h4,
+.section-control.specials-products .banner-wrapper .banner-bottom .txt-box p {
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  right: -100px;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .image-box {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  left: 70%;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .button-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  text-align: left;
+  right: -100px;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .banner-left {
+  background: none;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .banner-left::after {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #d91820;
+  z-index: 0;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .banner-right {
+  background: none;
+}
+.section-control.specials-products .banner-wrapper .banner-bottom .banner-right::after {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #5d2f8f;
+  z-index: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top {
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top .txt-box.boxLeft h3 {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top .txt-box.boxLeft p {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top .txt-box.boxRight h3 {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top .txt-box.boxRight p {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-top .image-box {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left::after {
+  width: 100%;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box h4,
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box p,
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box .button-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  right: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box h4 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box h4 p {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box p {
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .txt-box .button-control {
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-left .image-box {
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+  visibility: visible;
+  opacity: 1;
+  left: 45%;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right::after {
+  width: 100%;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box h4,
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box p,
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box .button-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  right: 0;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box h4 {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box h4 p {
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box p {
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .txt-box .button-control {
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+.section-control.specials-products .banner-wrapper.expand .banner-bottom .banner-right .image-box {
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
+  visibility: visible;
+  opacity: 1;
+  left: 45%;
+}
+.section-control.products .products-slide .nav-products {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  top: 100px;
+}
+.section-control.products .products-slide .slider-control {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  top: 100px;
+}
+.section-control.products .products-slide.expand .nav-products {
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+.section-control.products .products-slide.expand .slider-control {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  top: 0;
+}
+.section-control.facility .facility-wrapper .inner-wrapper .txt-box .topic,
+.section-control.facility .facility-wrapper .inner-wrapper .txt-box .detail,
+.section-control.facility .facility-wrapper .inner-wrapper .txt-box .button-control {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  left: 150px;
+}
+.section-control.facility .facility-wrapper .inner-wrapper .image-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  left: 150px;
+}
+.section-control.facility .facility-wrapper.expand .inner-wrapper .image-wrapper.boxLeft {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.facility .facility-wrapper.expand .inner-wrapper .image-wrapper.boxRight {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.facility .facility-wrapper.expand .inner-wrapper .topic {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.facility .facility-wrapper.expand .inner-wrapper .detail {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.facility .facility-wrapper.expand .inner-wrapper .button-control {
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.data-and-ai .content-wrapper .txt-box h3 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: -100px;
+}
+.section-control.data-and-ai .content-wrapper .txt-box p {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: 100px;
+}
+.section-control.data-and-ai .content-wrapper .button-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  top: 50px;
+}
+.section-control.data-and-ai .content-wrapper.expand .txt-box h3,
+.section-control.data-and-ai .content-wrapper.expand .txt-box p {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.data-and-ai .content-wrapper.expand .button-control {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  top: 0;
+}
+.section-control.news-and-vdo .news-wrapper .title-box h3,
+.section-control.news-and-vdo .vdo-wrapper .title-box h3 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  left: 100px;
+}
+.section-control.news-and-vdo .news-wrapper .title-box h3::after,
+.section-control.news-and-vdo .vdo-wrapper .title-box h3::after {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  margin-left: -200px;
+}
+.section-control.news-and-vdo .news-wrapper .news-control {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  left: 50px;
+}
+.section-control.news-and-vdo .news-wrapper.expand .title-box h3 {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .title-box h3::after {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  margin-left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(1) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(2) {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(3) {
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(4) {
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(5) {
+  -webkit-transition-delay: 1.1s;
+  transition-delay: 1.1s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .news-wrapper.expand .news-control:nth-child(6) {
+  -webkit-transition-delay: 1.3s;
+  transition-delay: 1.3s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper .vdo-control {
+  display: inline-block;
+  width: 100%;
+}
+.section-control.news-and-vdo .vdo-wrapper .vdo-item {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  left: 50px;
+}
+.section-control.news-and-vdo .vdo-wrapper .button-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  left: 50px;
+  position: relative;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .title-box h3 {
+  -webkit-transition-delay: 1.6s;
+  transition-delay: 1.6s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .title-box h3::after {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  margin-left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .vdo-item:nth-child(1) {
+  -webkit-transition-delay: 1.9s;
+  transition-delay: 1.9s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .vdo-item:nth-child(2) {
+  -webkit-transition-delay: 2.1s;
+  transition-delay: 2.1s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .vdo-item:nth-child(3) {
+  -webkit-transition-delay: 2.3s;
+  transition-delay: 2.3s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.news-and-vdo .vdo-wrapper.expand .button-control {
+  -webkit-transition-delay: 2.5s;
+  transition-delay: 2.5s;
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.industries.bg-attachment .category-wrapper .title-group h3 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: 100px;
+}
+.section-control.industries.bg-attachment .category-wrapper .title-group p {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: -100px;
+}
+.section-control.industries.bg-attachment .category-wrapper .category-item .inner-wrapper {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  -ms-transform: scale(0.7) rotate(0.02deg);
+  -webkit-transform: scale(0.7) rotate(0.02deg);
+  transform: scale(0.7) rotate(0.02deg);
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .title-group h3 {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .title-group p {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .category-item .inner-wrapper.no-clr {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1) rotate(0.02deg);
+  -webkit-transform: scale(1) rotate(0.02deg);
+  transform: scale(1) rotate(0.02deg);
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .category-item .inner-wrapper.clr-01 {
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+  visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1) rotate(0.02deg);
+  -webkit-transform: scale(1) rotate(0.02deg);
+  transform: scale(1) rotate(0.02deg);
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .category-item .inner-wrapper.clr-02 {
+  -webkit-transition-delay: 1.1s;
+  transition-delay: 1.1s;
+  visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1) rotate(0.02deg);
+  -webkit-transform: scale(1) rotate(0.02deg);
+  transform: scale(1) rotate(0.02deg);
+}
+.section-control.industries.bg-attachment .category-wrapper.expand .category-item .inner-wrapper.clr-03 {
+  -webkit-transition-delay: 1.4s;
+  transition-delay: 1.4s;
+  visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1) rotate(0.02deg);
+  -webkit-transform: scale(1) rotate(0.02deg);
+  transform: scale(1) rotate(0.02deg);
+}
+.section-control.counter-number ul.number-control {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.section-control.counter-number ul.number-control.expand {
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+.main-footer {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.main-footer .figure {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -ms-transform: scale(1.4) rotate(0.02deg);
+  -webkit-transform: scale(1.4) rotate(0.02deg);
+  transform: scale(1.4) rotate(0.02deg);
+  opacity: 0;
+  visibility: hidden;
+}
+.main-footer .logo {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  right: 0;
+}
+.main-footer.expand {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+.main-footer.expand .figure {
+  -ms-transform: scale(1) rotate(0.02deg);
+  -webkit-transform: scale(1) rotate(0.02deg);
+  transform: scale(1) rotate(0.02deg);
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+.main-footer.expand .logo {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  right: 6%;
 }
