@@ -8,7 +8,7 @@
 		</div>
 		<div class="contact-group">
 			<div class="row">
-				<div class="col-sm-8">
+				<div class="col-lg-8 col-md-7">
 					<div class="news-letter">
 						<h3>Subscribe to Our Newsletter </h3>
 						<div class="form-wrapper">
@@ -19,7 +19,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-lg-4 col-md-5">
 					<div class="social">
 						<div class="icon-social">
 							<a href=""><img src="images/socials/ico-facebook.png" alt=""></a>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="menu-group">
 			<div class="row">
-				<div class="col-sm-8">
+				<div class="col-lg-8 col-md-12">
 					<div class="menu-wrapper">
 						<ul>
 							<li>

@@ -33,7 +33,7 @@
 			<div class="top-menu">
 				<div class="form-wrapper">
 					<form action="">
-						<input type="email" class="form-control" placeholder="Search Products">
+						<input type="text" class="form-control" placeholder="Search Products">
 						<button><i class="ico-letter"></i></button>
 					</form>
 				</div>

@@ -624,13 +624,13 @@ include 'inc/header.php';
 <div class="section-control news-and-vdo ">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-9">
+			<div class="col-lg-9 col-md-12">
 				<div class="news-wrapper scroll-event">
 					<div class="title-box">
 						<h3>Latest News</h3>
 					</div>
 					<div class="row">
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -649,7 +649,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -668,7 +668,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -687,7 +687,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -706,7 +706,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -725,7 +725,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 news-control">
+						<div class="col-sm-6 col-md-4 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -747,47 +747,55 @@ include 'inc/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-12">
 				<div class="vdo-wrapper scroll-event">
 					<div class="title-box">
 						<h3>Hot Videos</h3>
 					</div>
 					<div class="vdo-control">
-						<div class="vdo-item">
-							<div class="txt-box">
-								<p>
-									The industrial revolution
-									brought about great change
-								</p>
+						<div class="row">
+							<div class="col-lg-12 col-sm-4">
+								<div class="vdo-item">
+									<div class="txt-box">
+										<p>
+											The industrial revolution
+											brought about great change
+										</p>
+									</div>
+									<div class="image">
+										<img src="images/home/vdo-01_370x210.jpg" alt="">
+									</div>
+									<a data-fancybox href="https://www.youtube.com/watch?v=LVYUss6pJqQ" class="play-vdo"></a>
+								</div>
 							</div>
-							<div class="image">
-								<img src="images/home/vdo-01_370x210.jpg" alt="">
+							<div class="col-lg-12 col-sm-4">
+								<div class="vdo-item">
+									<div class="txt-box">
+										<p>
+											The industrial revolution
+											brought about great change
+										</p>
+									</div>
+									<div class="image">
+										<img src="images/home/vdo-02_370x210.jpg" alt="">
+									</div>
+									<a data-fancybox href="https://www.youtube.com/watch?v=pD2Bl0ZhBRQ" class="play-vdo"></a>
+								</div>
 							</div>
-							<a data-fancybox href="https://www.youtube.com/watch?v=LVYUss6pJqQ" class="play-vdo"></a>
-						</div>
-						<div class="vdo-item">
-							<div class="txt-box">
-								<p>
-									The industrial revolution
-									brought about great change
-								</p>
+							<div class="col-lg-12 col-sm-4">
+								<div class="vdo-item">
+									<div class="txt-box">
+										<p>
+											Make In India- Innovation
+											In Automobile Industry
+										</p>
+									</div>
+									<div class="image">
+										<img src="images/home/vdo-03_370x210.jpg" alt="">
+									</div>
+									<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
+								</div>
 							</div>
-							<div class="image">
-								<img src="images/home/vdo-02_370x210.jpg" alt="">
-							</div>
-							<a data-fancybox href="https://www.youtube.com/watch?v=pD2Bl0ZhBRQ" class="play-vdo"></a>
-						</div>
-						<div class="vdo-item">
-							<div class="txt-box">
-								<p>
-									Make In India- Innovation
-									In Automobile Industry
-								</p>
-							</div>
-							<div class="image">
-								<img src="images/home/vdo-03_370x210.jpg" alt="">
-							</div>
-							<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
 						</div>
 						<div class="button-control">
 							<a href="" class="btn-view clr_1">View More</a>
