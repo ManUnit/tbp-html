@@ -680,6 +680,9 @@
   .section-control.industries {
     display: none;
   }
+  .industries-mobile.bg-attachment {
+    display: inline-block;
+  }
 }
 @media screen and (max-height: 420px) {
   .main-header .menu-wrapper .form-wrapper .form-control {

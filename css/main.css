@@ -3058,6 +3058,62 @@ a.animated-button.victoria-four:hover:after {
   transition-delay: 1s;
   right: 6%;
 }
+.industries-mobile.expand .txt-box h3 {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.industries-mobile.expand .txt-box h4 {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.industries-mobile.expand .slider-control {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+.industries-mobile .slider-control {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  left: 100px;
+}
+.industries-mobile .txt-box h3 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: 100px;
+}
+.industries-mobile .txt-box h4 {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: -100px;
+}
 /* end of Home page Animate */
 /* Start Page Inner Style */
 .pageinner-wrapper {

@@ -3029,6 +3029,49 @@ a.animated-button.victoria-four:hover:after {
 	}
 }
 
+.industries-mobile {
+	&.expand {
+		.txt-box {
+			h3 {
+				.fadeOn;
+				left: 0;
+			}
+
+			h4 {
+				.fadeOn;
+				left: 0;
+			}
+		}
+
+		.slider-control {
+			.fadeOn;
+			left: 0;
+		}
+	}
+
+	.slider-control {
+		.trans(0.7s);
+		.fadeOff;
+		left: 100px;
+	}
+
+	.txt-box {
+		h3 {
+			.trans(0.7s);
+			.fadeOff;
+			position: relative;
+			left: 100px;
+		}
+
+		h4 {
+			.trans(0.7s);
+			.fadeOff;
+			position: relative;
+			left: -100px;
+		}
+	}
+}
+
 /* end of Home page Animate */
 
 /* Start Page Inner Style */
