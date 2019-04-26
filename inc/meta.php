@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="js/plugin/nice-select/nice-select.css">
     <link rel="stylesheet" href="js/plugin/flagstrap/flags.css">
     <link rel="stylesheet" href="js/plugin/bar-rating/css-stars.css">
+    <link rel="stylesheet" href="css/multilevel-accordion.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 

@@ -9,19 +9,19 @@ include 'inc/header.php';
 	<div class="slider-control">
 		<div class="item">
 			<picture class="image">
-				<source srcset="images/home/banner-01_1920x580.jpg" media="(max-width: 991px)">
+				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
 				<img src="images/home/banner-01_1920x580.jpg" alt="">
 			</picture>
 		</div>
 		<div class="item">
 			<picture class="image">
-				<source srcset="images/home/banner-01_1920x580.jpg" media="(max-width: 991px)">
+				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
 				<img src="images/home/banner-01_1920x580.jpg" alt="">
 			</picture>
 		</div>
 		<div class="item">
 			<picture class="image">
-				<source srcset="images/home/banner-01_1920x580.jpg" media="(max-width: 991px)">
+				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
 				<img src="images/home/banner-01_1920x580.jpg" alt="">
 			</picture>
 		</div>
@@ -120,6 +120,9 @@ include 'inc/header.php';
 			</div>
 			<div class="slider-control">
 				<div class="item">
+					<div class="category-name">
+						<h3>Feature Products</h3>
+					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
@@ -230,6 +233,9 @@ include 'inc/header.php';
 					</div>
 				</div>
 				<div class="item">
+					<div class="category-name">
+						<h3>Latest Products</h3>
+					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
@@ -340,6 +346,9 @@ include 'inc/header.php';
 					</div>
 				</div>
 				<div class="item">
+					<div class="category-name">
+						<h3>Featured Products</h3>
+					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
@@ -450,6 +459,9 @@ include 'inc/header.php';
 					</div>
 				</div>
 				<div class="item">
+					<div class="category-name">
+						<h3>Specials Products</h3>
+					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
@@ -806,7 +818,94 @@ include 'inc/header.php';
 		</div>
 	</div>
 </div>
-
+<div class="section-control industries-mobile bg-attachment scroll-event">
+	<div class="container">
+		<div class="txt-box">
+			<h3>Industry Solution Experiences</h3>
+			<h4>Serving 15 Industries</h4>
+		</div>
+		<div class="slider-control">
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-01_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Construction</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-02_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Machinery</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-03_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Tools & Instruments</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-04_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Material Handling</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-05_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Valves Pumps Pipes</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href=""></a>
+				<div class="image-box">
+					<div class="image">
+						<img src="images/home/item-06_240x240.jpg" alt="">
+					</div>
+				</div>
+				<div class="content">
+					<div class="txt">
+						<p>Metal & Metal Working</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="section-control bg-attachment industries">
 	<div class="container">
 		<div class="category-wrapper scroll-event">

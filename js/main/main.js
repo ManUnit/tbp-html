@@ -5,11 +5,12 @@ $(window).load(function() {
 $(document).ready(function () {
 
 	/* hamburger icon */
-	// $('#menu-toggle').click(function(){
-	// 	$(this).toggleClass('open');
-	// 	$('.menu-onMobile').toggleClass('active');
-	// 	$('.search-onMobile').toggleClass('active');
-	// });
+	$('#menu-toggle').click(function(){
+		$(this).toggleClass('open');
+		$('.menu-onMobile').toggleClass('active');
+		$('.main-header .menu-wrapper').toggleClass('active');
+		$('body').toggleClass('noScroll');
+	});
 
 
 	/* refresh to top page */
@@ -41,13 +42,24 @@ $(document).ready(function () {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		centerPadding: 0,
-		arrows: false,
+		arrows: true,
 		speed: 1200,
 		slidesToScroll: 1,
-		draggable: false,
+		draggable: false
 	});
 
-	$('.nav-control .nav-slide').click(function(e) {
+	var $industries_slide = $('.industries-mobile .slider-control');
+	$industries_slide.slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		centerPadding: 0,
+		arrows: true,
+		speed: 1200,
+		slidesToScroll: 1,
+		draggable: true
+	});
+
+	$('.nav-products .nav-control .nav-slide').click(function(e) {
 		e.preventDefault();
 		var slideno = $(this).data('slide');
 		$product_slide.slick('slickGoTo', slideno - 1);
@@ -63,51 +75,13 @@ $(document).ready(function () {
 
 	/* select language */
 	$('#options').flagStrap({
-		countries: { "ENG": "ENGLISH", "TH": "THAI" },
+		countries: { "ENG": "EN", "TH": "TH" },
 		buttonSize: "btn-sm",
 		scrollable: false,
 		placeholder: false
 	});
 
 	$('.counter').countUp();
-
-
-	/* select language on mobile */
-	// $('#options_mobile').flagStrap({
-	// 	countries: { "ENG": "ENGLISH", "TH": "THAI" },
-	// 	buttonSize: "btn-sm",
-	// 	scrollable: false,
-	// 	placeholder: false
-	// });
-
-
-
-	/* Gmaps footer */
-	// var icon_marker = {
-	// 	url: 'images/icon/ico-pin.png',
-	// 	size: new google.maps.Size(90, 90),
-	// 	scaledSize: new google.maps.Size(90, 90),
-	// 	anchor: new google.maps.Point(45,45)
-	// }
-	// maps_footer = new GMaps({
-	// 	div: '#maps-footer',
-	// 	lat: 13.605952,
-	// 	lng: 100.706168
-	// });
-	// maps_footer.addMarker({
-	// 	lat: 13.605952,
-	// 	lng: 100.706168,
-	// 	icon: icon_marker
-	// });
-
-
-
-	/* animate header */
-	// setTimeout(function(){
-	// 	$('.main-header').addClass('active');
-	// 	$('.main-banner').addClass('active');
-	// }, 500);
-
 
 
 	// $(".hasScroll").mCustomScrollbar({
@@ -128,6 +102,23 @@ $(document).ready(function () {
 	$('.scroll-event').viewportChecker({
 		classToAdd: 'expand',
 		offset: 200
+	});
+
+	jQuery(document).ready(function(){
+		var accordionsMenu = $('.cd-accordion-menu');
+
+		if( accordionsMenu.length > 0 ) {
+
+			accordionsMenu.each(function(){
+				var accordion = $(this);
+				//detect change in the input[type="checkbox"] value
+				accordion.on('change', 'input[type="checkbox"]', function(){
+					var checkbox = $(this);
+					console.log(checkbox.prop('checked'));
+					( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
+				});
+			});
+		}
 	});
 });
 

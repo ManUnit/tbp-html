@@ -1,28 +1,16 @@
-<!-- <div class="search-onMobile">
-	<form action="">
-		<input type="text" class="form-control">
-		<button class="btn-search"></button>
-	</form>
-</div>
-
-<div class="menu-onMobile">
-	<ul>
-		<li></li>
-	</ul>
-
-	<ul class="top-contact">
-		<li>
-			<i class="ico-phone"></i>
-			<p>0-2751-1267-9 , 0-2751-0375</p>
-		</li>
-		<li>
-			<i class="ico-letter"></i>
-			<p>admin@dago.co.th</p>
-		</li>
-	</ul>
-</div> -->
-
 <div class="main-header">
+	<!-- button responsive menu -->
+	<div id="menu-toggle">
+		<div id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div id="cross">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
 	<div class="container">
 		<div class="logo-wrapper">
 			<div class="logo">
@@ -68,20 +56,39 @@
 			</div>
 			<div class="main-menu">
 				<ul>
-					<li>
-						<a href="" class="animated-button victoria-four">Home</a>
+					<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
+						<a href="index.php" class="animated-button victoria-four">Home</a>
 					</li>
-					<li class="sub-menu">
-						<a href="" class="animated-button victoria-four">Search Products</a>
+					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?>">
+						<a href="products-category.php" class="animated-button victoria-four">Products</a>
 					</li>
-					<li>
-						<a href="" class="animated-button victoria-four">Join Us</a>
+					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
+						<a href="join-us.php" class="animated-button victoria-four">Join Us</a>
 					</li>
-					<li>
-						<a href="" class="animated-button victoria-four">My Service</a>
+					<li class="not-page">
+						<a href="javascript:void(0);" class="animated-button victoria-four">My Service</a>
 					</li>
-					<li>
-						<a href="" class="animated-button victoria-four">Contact Us</a>
+					<li class="not-page">
+						<a href="javascript:void(0);" class="animated-button victoria-four">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-onMobile">
+				<ul>
+					<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
+						<a href="index.php">Home</a>
+					</li>
+					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?>">
+						<a href="products-category.php">Products</a>
+					</li>
+					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
+						<a href="join-us.php">Join Us</a>
+					</li>
+					<li class="<?php if ( $page_name == 'service') { echo 'active'; } ?>">
+						<a href="javascript:void(0);">My Service</a>
+					</li>
+					<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
+						<a href="javascript:void(0);">Contact Us</a>
 					</li>
 				</ul>
 			</div>

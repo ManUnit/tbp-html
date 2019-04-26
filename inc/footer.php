@@ -39,59 +39,51 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="menu-wrapper">
-						<ul>
-							<li>
-								<div class="nav-menu">
-									<a href="">Construction</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Material Handling</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Chemical Plastics Gas</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Automotive Industry</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Air Conditioning</a>
-								</div>
-							</li>
-							<li>
-								<div class="nav-menu">
-									<a href="">Machinery</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Valves Pumps Pipes</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Electric Power</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Renewable Energy</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Logistics & Transpot</a>
-								</div>
-							</li>
-							<li>
-								<div class="nav-menu">
-									<a href="">Tools & Instruments</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Metal & Metal Working</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Packaging & Storaging</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Office Automation</a>
-								</div>
-								<div class="nav-menu">
-									<a href="">Services Business</a>
-								</div>
-							</li>
-						</ul>
+						<div class="nav-menu">
+							<a href="">Construction</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Material Handling</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Chemical Plastics Gas</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Automotive Industry</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Air Conditioning</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Machinery</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Valves Pumps Pipes</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Electric Power</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Renewable Energy</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Logistics & Transpot</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Tools & Instruments</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Metal & Metal Working</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Packaging & Storaging</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Office Automation</a>
+						</div>
+						<div class="nav-menu">
+							<a href="">Services Business</a>
+						</div>
 					</div>
 				</div>
 			</div>
