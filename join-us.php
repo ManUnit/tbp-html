@@ -22,7 +22,7 @@ include 'inc/header.php';
 			</div>
 		</div>
 		<div class="work-wrapper">
-			<h3 class="title">
+			<h3 class="title-inner">
 				We are looking for talented people to work in various positions.
 				<span>Be part of the power of the organization and ready to grow together.</span>
 			</h3>
@@ -127,9 +127,128 @@ include 'inc/header.php';
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="demo-image">
-									<img src="images/join-us/demo-image.jpg" alt="">
-								</div>
+								<form action="" class="form-theme">
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Form</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<div class="checkWrapper gender-group">
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mr.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mrs.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Miss</p>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Contact Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>History of Education</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="High School Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Vocational Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="University Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Other Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Documents</h3>
+										</div>
+										<div class="brows-document">
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-photo">
+													<i class="icon-plus"></i>
+													Attach Photo
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-file">
+													<i class="icon-plus"></i>
+													Attach File
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<span class="txt-description">
+												Attach document file. .doc, .dox, .pdf, .xls
+											</span>
+										</div>
+									</div>
+									<div class="check-privacy checkWrapper">
+										<label class="checkBox">
+											<input type="checkbox" name="provacy" value="1"> <span></span>
+											<p>I certify that the above statements are true.</p>
+										</label>
+									</div>
+									<div class="button-control">
+										<button class="btn-submit">SEND</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -146,7 +265,7 @@ include 'inc/header.php';
 								<div class="topic-box">
 									<h3>
 										<span>Position :</span>
-										Sales Representative
+										Product Specialist
 									</h3>
 								</div>
 								<div class="job-description">
@@ -234,9 +353,128 @@ include 'inc/header.php';
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="demo-image">
-									<img src="images/join-us/demo-image.jpg" alt="">
-								</div>
+								<form action="" class="form-theme">
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Form</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<div class="checkWrapper gender-group">
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mr.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mrs.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Miss</p>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Contact Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>History of Education</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="High School Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Vocational Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="University Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Other Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Documents</h3>
+										</div>
+										<div class="brows-document">
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-photo">
+													<i class="icon-plus"></i>
+													Attach Photo
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-file">
+													<i class="icon-plus"></i>
+													Attach File
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<span class="txt-description">
+												Attach document file. .doc, .dox, .pdf, .xls
+											</span>
+										</div>
+									</div>
+									<div class="check-privacy checkWrapper">
+										<label class="checkBox">
+											<input type="checkbox" name="provacy" value="1"> <span></span>
+											<p>I certify that the above statements are true.</p>
+										</label>
+									</div>
+									<div class="button-control">
+										<button class="btn-submit">SEND</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -253,7 +491,7 @@ include 'inc/header.php';
 								<div class="topic-box">
 									<h3>
 										<span>Position :</span>
-										Sales Engineer / Sales Representative
+										Product Specialist
 									</h3>
 								</div>
 								<div class="job-description">
@@ -341,9 +579,128 @@ include 'inc/header.php';
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="demo-image">
-									<img src="images/join-us/demo-image.jpg" alt="">
-								</div>
+								<form action="" class="form-theme">
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Form</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<div class="checkWrapper gender-group">
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mr.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mrs.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Miss</p>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Contact Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>History of Education</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="High School Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Vocational Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="University Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Other Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Documents</h3>
+										</div>
+										<div class="brows-document">
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-photo">
+													<i class="icon-plus"></i>
+													Attach Photo
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-file">
+													<i class="icon-plus"></i>
+													Attach File
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<span class="txt-description">
+												Attach document file. .doc, .dox, .pdf, .xls
+											</span>
+										</div>
+									</div>
+									<div class="check-privacy checkWrapper">
+										<label class="checkBox">
+											<input type="checkbox" name="provacy" value="1"> <span></span>
+											<p>I certify that the above statements are true.</p>
+										</label>
+									</div>
+									<div class="button-control">
+										<button class="btn-submit">SEND</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -360,7 +717,7 @@ include 'inc/header.php';
 								<div class="topic-box">
 									<h3>
 										<span>Position :</span>
-										Shop Assistant
+										Product Specialist
 									</h3>
 								</div>
 								<div class="job-description">
@@ -448,9 +805,128 @@ include 'inc/header.php';
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="demo-image">
-									<img src="images/join-us/demo-image.jpg" alt="">
-								</div>
+								<form action="" class="form-theme">
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Form</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<div class="checkWrapper gender-group">
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mr.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mrs.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Miss</p>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Contact Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>History of Education</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="High School Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Vocational Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="University Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Other Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Documents</h3>
+										</div>
+										<div class="brows-document">
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-photo">
+													<i class="icon-plus"></i>
+													Attach Photo
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-file">
+													<i class="icon-plus"></i>
+													Attach File
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<span class="txt-description">
+												Attach document file. .doc, .dox, .pdf, .xls
+											</span>
+										</div>
+									</div>
+									<div class="check-privacy checkWrapper">
+										<label class="checkBox">
+											<input type="checkbox" name="provacy" value="1"> <span></span>
+											<p>I certify that the above statements are true.</p>
+										</label>
+									</div>
+									<div class="button-control">
+										<button class="btn-submit">SEND</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -467,7 +943,7 @@ include 'inc/header.php';
 								<div class="topic-box">
 									<h3>
 										<span>Position :</span>
-										Shop Assistant
+										Product Specialist
 									</h3>
 								</div>
 								<div class="job-description">
@@ -555,9 +1031,128 @@ include 'inc/header.php';
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="demo-image">
-									<img src="images/join-us/demo-image.jpg" alt="">
-								</div>
+								<form action="" class="form-theme">
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Form</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<div class="checkWrapper gender-group">
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mr.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Mrs.</p>
+													</label>
+													<label class="checkBox">
+														<input type="radio" name="gender" value="1"> <span></span>
+														<p>Miss</p>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="First Name">
+											</div>
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Date of Birth">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Contact Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>History of Education</h3>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="High School Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="Vocational Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-6 input-control">
+												<input type="text" class="form-control" id="" placeholder="University Name">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="Branch">
+											</div>
+											<div class="col-sm-3 input-control">
+												<input type="text" class="form-control" id="" placeholder="GPA">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-12 input-control">
+												<textarea name="" id="" cols="12" rows="5" class="form-control" placeholder="Other Details"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="inner-group">
+										<div class="topic-box">
+											<h3>Application Documents</h3>
+										</div>
+										<div class="brows-document">
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-photo">
+													<i class="icon-plus"></i>
+													Attach Photo
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<div class="btn-browse">
+												<label for="photo-upload" class="att-file">
+													<i class="icon-plus"></i>
+													Attach File
+												</label>
+												<input id="photo-upload" type="file"/>
+											</div>
+											<span class="txt-description">
+												Attach document file. .doc, .dox, .pdf, .xls
+											</span>
+										</div>
+									</div>
+									<div class="check-privacy checkWrapper">
+										<label class="checkBox">
+											<input type="checkbox" name="provacy" value="1"> <span></span>
+											<p>I certify that the above statements are true.</p>
+										</label>
+									</div>
+									<div class="button-control">
+										<button class="btn-submit">SEND</button>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>

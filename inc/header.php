@@ -65,11 +65,11 @@
 					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
 						<a href="join-us.php" class="animated-button victoria-four">Join Us</a>
 					</li>
-					<li class="not-page">
-						<a href="javascript:void(0);" class="animated-button victoria-four">My Service</a>
+					<li class="<?php if ( $page_name == 'service') { echo 'active'; } ?>">
+						<a href="service.php" class="animated-button victoria-four">My Service</a>
 					</li>
-					<li class="not-page">
-						<a href="javascript:void(0);" class="animated-button victoria-four">Contact Us</a>
+					<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
+						<a href="contact.php" class="animated-button victoria-four">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -85,7 +85,7 @@
 						<a href="join-us.php">Join Us</a>
 					</li>
 					<li class="<?php if ( $page_name == 'service') { echo 'active'; } ?>">
-						<a href="javascript:void(0);">My Service</a>
+						<a href="service.php">My Service</a>
 					</li>
 					<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
 						<a href="javascript:void(0);">Contact Us</a>

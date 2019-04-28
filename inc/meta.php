@@ -39,7 +39,7 @@
 
     <script type="text/javascript" src="js/main/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="js/main/main.js"></script>
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&signed_in=false&language=th&key=AIzaSyByefzK0g04_e4RQi7WgDhW4ehcAbHF7S8"></script> -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&signed_in=false&language=th&key=AIzaSyByefzK0g04_e4RQi7WgDhW4ehcAbHF7S8"></script>
 
 </head>
 
