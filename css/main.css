@@ -1037,7 +1037,7 @@ a.animated-button.victoria-four:hover:after {
 }
 .section-control.products .products-slide .slick-prev.slick-arrow,
 .section-control.products .products-slide .slick-next.slick-arrow {
-  display: block;
+  display: none !important;
   width: 26px;
   height: 26px;
   background-repeat: no-repeat;
@@ -3147,6 +3147,22 @@ a.animated-button.victoria-four:hover:after {
   visibility: hidden;
   position: relative;
   left: -100px;
+}
+.pageinner-wrapper {
+  -webkit-transition: all 0.7s ease-in-out 0s;
+  -moz-transition: all 0.7s ease-in-out 0s;
+  -o-transition: all 0.7s ease-in-out 0s;
+  -ms-transition: all 0.7s ease-in-out 0s;
+  transition: all 0.7s ease-in-out 0s;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  opacity: 0;
+}
+.pageinner-wrapper.expand {
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  opacity: 1;
 }
 /* end of Home page Animate */
 /* Start Page Inner Style */

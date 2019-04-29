@@ -5,7 +5,7 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 
-<div class="pageinner-wrapper">
+<div class="pageinner-wrapper scroll-event">
 	<div class="container">
 		<div class="breadCrumb">
 			<ul>

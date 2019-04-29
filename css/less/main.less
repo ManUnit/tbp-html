@@ -1120,7 +1120,7 @@ a.animated-button.victoria-four:hover:after {
 				z-index: 500;
 
 				&.slick-arrow {
-					display: block;
+					display: none !important;
 					width: 26px;
 					height: 26px;
 					background-repeat: no-repeat;
@@ -3108,6 +3108,16 @@ a.animated-button.victoria-four:hover:after {
 			position: relative;
 			left: -100px;
 		}
+	}
+}
+
+.pageinner-wrapper {
+	.trans(0.7s);
+	opacity: 0;
+
+	&.expand {
+		.delay(1s);
+		opacity: 1;
 	}
 }
 
