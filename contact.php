@@ -94,7 +94,7 @@ include 'inc/header.php';
 							</label>
 						</div>
 						<div class="button-control">
-							<button class="btn-submit">SEND</a>
+							<button class="btn-submit">SEND</button>
 						</div>
 					</form>
 				</div>
@@ -156,3 +156,4 @@ include 'inc/header.php';
 	   });
 	</script>
 	<?php include 'inc/javascript.php';?>
+

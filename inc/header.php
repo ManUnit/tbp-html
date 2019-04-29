@@ -61,7 +61,7 @@
 					</li>
 					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?> has-menu" >
 						<a href="products-category.php" class="animated-button victoria-four">Products</a>
-						<!-- <div class="sub-menu">
+						<div class="sub-menu">
 							<div class="container">
 								<div class="menu-container">
 									<div class="popup-close"></div>
@@ -114,120 +114,335 @@
 											</li>
 										</ul>
 									</div>
-									<div class="tab-list">
+									<div class="tab-list tab-1 active">
 										<div class="list-menu">
-											<div class="link-menu tab-1">
+											<div class="link-menu active">
 												<ul>
-													<li class="active">
+													<li class="active" tab-id="1" data-id="1">
 														<a href="">Contractor for consulting, Project management, Architect</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="2">
 														<a href="">Machine tools used in construction</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="3">
 														<a href="">Scaffolding</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="4">
 														<a href="">Demolition service</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="5">
 														<a href="">Anti-rust, prevent and eliminate</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="6">
 														<a href="">Glass-wholesale and manufacturer</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="7">
 														<a href="">Glass-coated or plastered materials</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="8">
 														<a href="">Glass - Engraved and grinding service</a>
 													</li>
-													<li>
+													<li tab-id="1" data-id="9">
 														<a href="">Color changing glass</a>
 													</li>
-													<li>
-														<a href="">Glazed Tiles - Products</a>
-													</li>
-												</ul>
-											</div>
-											<div class="link-menu tab-2">
-												<ul>
-													<li data-id="1-1">
-														<a href="">coated or plastered materials</a>
-													</li>
-													<li data-id="1-2">
-														<a href="">Engraved and grinding service</a>
-													</li>
-													<li data-id="1-3">
-														<a href="">Color changing glass</a>
-													</li>
-													<li data-id="1-4">
-														<a href="">Glazed Tiles - Products</a>
-													</li>
-												</ul>
-											</div>
-											<div class="link-menu tab-3">
-												<ul>
-													<li>
-														<a href="">Glazed Tiles - Products</a>
-													</li>
-													<li>
-														<a href="">Glass - Engraved and grinding service</a>
-													</li>
-													<li>
-														<a href="">Color changing glass</a>
-													</li>
-													<li>
-														<a href="">Glazed Tiles - Products</a>
-													</li>
-												</ul>
-											</div>
-											<div class="link-menu tab-4">
-												<ul>
-													<li>
-														<a href="">Engraved and grinding service</a>
-													</li>
-													<li>
-														<a href="">Color changing glass</a>
-													</li>
-													<li>
+													<li tab-id="1" data-id="10">
 														<a href="">Glazed Tiles - Products</a>
 													</li>
 												</ul>
 											</div>
 										</div>
 										<div class="list-detail">
-											<div class="group-detail tab-1">
-												<div class="link-detail tab-1-1">
-													<h3>Contractor for consulting, Project management, Architect<</h3>
-													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+											<div class="link-detail tab-1-1 active">
+												<h3>Contractor for consulting, Project management, Architect</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
 
-													<div class="image">
-														<img src="images/home/sub-img-01_710x380.jpg" alt="">
-													</div>
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
 												</div>
-												<div class="link-detail tab-1-2">
-													<h3>Contractor for consulting, Project management, Architect<</h3>
-													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+											</div>
+											<div class="link-detail tab-1-2">
+												<h3>Machine tools used in construction</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
 
-													<div class="image">
-														<img src="images/home/sub-img-01_710x380.jpg" alt="">
-													</div>
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
 												</div>
-												<div class="link-detail tab-1-3">
-													<h3>Contractor for consulting, Project management, Architect<</h3>
-													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+											</div>
+											<div class="link-detail tab-1-3">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
 
-													<div class="image">
-														<img src="images/home/sub-img-01_710x380.jpg" alt="">
-													</div>
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-4">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-5">
+												<h3>Anti-rust, prevent and eliminate</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-6">
+												<h3>Glass-wholesale and manufacture</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-7">
+												<h3>Glass-coated or plastered materials</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-8">
+												<h3>Glass - Engraved and grinding service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-9">
+												<h3>Color changing glass</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-1-10">
+												<h3>Glazed Tiles - Products</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-list tab-2">
+										<div class="list-menu">
+											<div class="link-menu active">
+												<ul>
+													<li class="active" tab-id="2" data-id="1">
+														<a href="">Contractor for consulting, Project management, Architect</a>
+													</li>
+													<li tab-id="2" data-id="2">
+														<a href="">Machine tools used in construction</a>
+													</li>
+													<li tab-id="2" data-id="3">
+														<a href="">Scaffolding</a>
+													</li>
+													<li tab-id="2" data-id="4">
+														<a href="">Demolition service</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="list-detail">
+											<div class="link-detail tab-2-1 active">
+												<h3>Contractor for consulting, Project management, Architect</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-2-2">
+												<h3>Machine tools used in construction</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-2-3">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-2-4">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-list tab-3">
+										<div class="list-menu">
+											<div class="link-menu active">
+												<ul>
+													<li class="active" tab-id="3" data-id="1">
+														<a href="">Contractor for consulting, Project management, Architect</a>
+													</li>
+													<li tab-id="3"  data-id="2">
+														<a href="">Machine tools used in construction</a>
+													</li>
+													<li tab-id="3"  data-id="3">
+														<a href="">Scaffolding</a>
+													</li>
+													<li tab-id="3"  data-id="4">
+														<a href="">Demolition service</a>
+													</li>
+													<li tab-id="3"  data-id="5">
+														<a href="">Anti-rust, prevent and eliminate</a>
+													</li>
+													<li tab-id="3"  data-id="6">
+														<a href="">Glass-wholesale and manufacturer</a>
+													</li>
+													<li tab-id="3"  data-id="7">
+														<a href="">Glass-coated or plastered materials</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="list-detail">
+											<div class="link-detail tab-3-1 active">
+												<h3>Contractor for consulting, Project management, Architect</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-2">
+												<h3>Machine tools used in construction</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-3">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-4">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-5">
+												<h3>Anti-rust, prevent and eliminate</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-6">
+												<h3>Glass-wholesale and manufacture</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-3-7">
+												<h3>Glass-coated or plastered materials</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-list tab-4" tab-id="4">
+										<div class="list-menu">
+											<div class="link-menu active">
+												<ul>
+													<li class="active" tab-id="4" data-id="1">
+														<a href="">Contractor for consulting, Project management, Architect</a>
+													</li>
+													<li tab-id="4" data-id="2">
+														<a href="">Machine tools used in construction</a>
+													</li>
+													<li tab-id="4" data-id="3">
+														<a href="">Scaffolding</a>
+													</li>
+													<li tab-id="4" data-id="4">
+														<a href="">Demolition service</a>
+													</li>
+													<li tab-id="4" data-id="5">
+														<a href="">Anti-rust, prevent and eliminate</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="list-detail">
+											<div class="link-detail tab-4-1 active">
+												<h3>Contractor for consulting, Project management, Architect</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-4-2">
+												<h3>Machine tools used in construction</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-4-3">
+												<h3>Scaffolding</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-4-4">
+												<h3>Demolition service</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
+												</div>
+											</div>
+											<div class="link-detail tab-4-5">
+												<h3>Anti-rust, prevent and eliminate</h3>
+												<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+												<div class="image">
+													<img src="images/home/sub-img-01_710x380.jpg" alt="">
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</li>
 					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
 						<a href="join-us.php" class="animated-button victoria-four">Join Us</a>

@@ -4766,16 +4766,20 @@ a.animated-button.victoria-four:hover:after {
 }
 
 .has-menu {
+	&:hover {
+		.sub-menu {
+			max-height: 100%;
+		}
+	}
 	.sub-menu {
-		.trans(0.5s);
-		min-height: 400px;
+		.trans(0.75s);
 		position: absolute;
 		left: 0;
 		top: 132px;
 		width: 100%;
 		background: rgba(255, 255, 255, 0.95);
 		z-index: 500;
-		max-height: 100%;
+		max-height: 0;
 		overflow: hidden;
 
 		.menu-container {
@@ -4937,20 +4941,38 @@ a.animated-button.victoria-four:hover:after {
 	}
 
 	.tab-list {
+		.trans(0.35s);
 		display: inline-block;
 		width: 80%;
+		height: 100%;
 		position: absolute;
 		left: 20%;
 		padding: 20px 0;
+		opacity: 0;
+		visibility: hidden;
+
+		&.active {
+			visibility: visible;
+			opacity: 1;
+
+			.list-menu, .list-detail {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
 
 		.list-menu {
+			.trans(0.35s);
 			display: inline-block;
 			position: absolute;
 			width: 35%;
+			height: 100%;
 			left: 0;
+			visibility: hidden;
+			opacity: 0;
 
 			.link-menu {
-				.trans(0.2s);
+				.trans(0.35s);
 				display: inline-block;
 				width: 100%;
 				position: absolute;
@@ -4963,6 +4985,7 @@ a.animated-button.victoria-four:hover:after {
 				&.active {
 					visibility: visible;
 					opacity: 1;
+					z-index: 100;
 				}
 
 				ul {
@@ -4995,6 +5018,10 @@ a.animated-button.victoria-four:hover:after {
 						a {
 							display: inline-block;
 							padding: 0;
+
+							&.active {
+								color: @act-1;
+							}
 						}
 					}
 				}
@@ -5002,25 +5029,14 @@ a.animated-button.victoria-four:hover:after {
 		}
 
 		.list-detail {
+			.trans(0.35s);
 			display: inline-block;
 			width: 65%;
 			left: 35%;
 			height: 100%;
 			position: absolute;
-
-			.group-detail {
-				.trans(0.2s);
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				opacity: 0;
-
-				&.active {
-					visibility: visible;
-					opacity: 1;
-				}
-			}
+			visibility: hidden;
+			opacity: 0;
 
 			.link-detail {
 				padding: 20px 30px;
@@ -5037,6 +5053,7 @@ a.animated-button.victoria-four:hover:after {
 				&.active {
 					visibility: visible;
 					opacity: 1;
+					z-index: 100;
 				}
 
 
@@ -5073,13 +5090,6 @@ a.animated-button.victoria-four:hover:after {
 		}
 	}
 }
-
-&:hover {
-	.sub-menu {
-		max-height: 100%;
-	}
-}
-
 
 /* end of Page Inner Style */
 
