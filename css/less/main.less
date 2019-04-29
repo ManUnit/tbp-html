@@ -423,7 +423,7 @@ a.animated-button.victoria-four:hover:after {
 .main-header {
 	.clear;
 	padding-top: 20px;
-	position: relative;
+	position: static;
 	top: 0;
 	left: 0;
 	z-index: 500;
@@ -624,42 +624,55 @@ a.animated-button.victoria-four:hover:after {
 			.clear;
 			float: left;
 
-			ul {
+			> ul {
 				.clear;
 				margin: 0;
-				position: relative;
 				padding: 0;
 				float: left;
 
-				&::after {
-					content: "";
-					height: 100%;
-					width: 500px;
-					background: @act-2;
-					position: absolute;
-					left: 99%;
-					top: 0;
-					z-index: 0;
-				}
-
-				li {
+				> li {
 					display: inline-block;
 					float: left;
 					width: 20%;
-					position: relative;
 					z-index: 100;
 					background: @act-2;
 
+					&:last-child {
+						position: relative;
+
+						&::after {
+							content: "";
+							height: 100%;
+							width: 500px;
+							background: @act-2;
+							position: absolute;
+							left: 99%;
+							top: 0;
+							z-index: 0;
+						}
+					}
+
 					&.active {
-						a {
-							background: @act-1;
+						> a {
+							color: #ff9b9b;
+						}
+					}
+
+					&:hover {
+						> a {
+							color: @white;
+
+							&::after {
+								opacity: 1;
+								height: 600% !important;
+							}
 						}
 					}
 
 					&.not-page {
 						background: #676767;
 
-						a {
+						> a {
 							color: #bdbdbd;
 							cursor: default;
 
@@ -669,28 +682,30 @@ a.animated-button.victoria-four:hover:after {
 						}
 					}
 
-					&::before {
-						content: "";
-						position: absolute;
-						left: 0;
-						top: 25%;
-						height: 50%;
-						width: 1px;
-						background: @white;
-						opacity: 0.35;
-						z-index: 20;
-					}
+					// &::before {
+					// 	content: "";
+					// 	position: absolute;
+					// 	left: 0;
+					// 	top: 25%;
+					// 	height: 50%;
+					// 	width: 1px;
+					// 	background: @white;
+					// 	opacity: 0.35;
+					// 	z-index: 20;
+					// }
 
 					&:first-child {
 						border-radius: 6px 0 0 0;
 						overflow: hidden;
 
-						&::before {
-							display: none;
+						a {
+							&::before {
+								display: none;
+							}
 						}
 					}
 
-					a {
+					> a {
 						.clear;
 						float: left;
 						text-align: center;
@@ -703,12 +718,17 @@ a.animated-button.victoria-four:hover:after {
 						font-family: @reg;
 						border: none;
 
-						// &:hover {
-						// 	&::after {
-						// 		visibility: visible;
-						// 		height: 100%;
-						// 	}
-						// }
+						&::before {
+							content: "";
+							position: absolute;
+							left: 0;
+							top: 25%;
+							height: 50%;
+							width: 1px;
+							background: @white;
+							opacity: 0.35;
+							z-index: 20;
+						}
 					}
 				}
 			}
@@ -3111,6 +3131,10 @@ a.animated-button.victoria-four:hover:after {
 		background-position: 0 0;
 	}
 
+	.ico-menu {
+		background-image: url('../images/icons/ico-menu.png')
+	}
+
 	.ico-01 {
 		background-image: url('../images/icons/ico_01.png')
 	}
@@ -3381,7 +3405,7 @@ a.animated-button.victoria-four:hover:after {
 			transform: translateY(-50%);
 			overflow: hidden;
 			border-radius: 0 8px 8px 0;
-			z-index: 500;
+			z-index: 200;
 
 			h3 {
 				margin: 0;
@@ -3506,6 +3530,7 @@ a.animated-button.victoria-four:hover:after {
 		text-align: center;
 		overflow: hidden;
 		margin-bottom: 30px;
+		position: relative;
 
 		.nav-control {
 			display: inline-block;
@@ -3892,6 +3917,7 @@ a.animated-button.victoria-four:hover:after {
 		&.service {
 			padding: 0 10%;
 			margin-bottom: 40px;
+			font-family: @med;
 		}
 
 		> span {
@@ -4307,6 +4333,7 @@ a.animated-button.victoria-four:hover:after {
 					-o-transform: translate(-50%, -50%);
 					transform: translate(-50%, -50%);
 					z-index: 100;
+					width: 100%;
 				}
 			}
 
@@ -4441,7 +4468,7 @@ a.animated-button.victoria-four:hover:after {
 	}
 
 	input[type="file"] {
-	    display: none;
+		display: none;
 	}
 
 	.form-group {
@@ -4628,5 +4655,431 @@ a.animated-button.victoria-four:hover:after {
 		max-width: 100%;
 	}
 }
+
+.popup-menu {
+	display: none;
+	width: 100%;
+	.radius(4px);
+	.trans(0.25s);
+	font-family: @reg;
+	font-size: 22px;
+	padding: 5px 30px 5px 50px;
+	background: @act-1;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+
+	&:hover, &.active {
+		background: @act-2;
+	}
+
+	p {
+		color: @white;
+		margin: 0;
+	}
+
+	.ico-menu {
+		left: 10px;
+		top: 10px;
+		margin: 0;
+		width: 25px;
+		height: 25px;
+		background-size: 80% auto;
+	}
+}
+
+.popup-close {
+	.trans(0.5s);
+	position: fixed;
+	cursor: pointer;
+	z-index: 500;
+	visibility: hidden;
+	background: @act-1;
+	width: 40px;
+	height: 40px;
+	top: -40px;
+	display: none;
+	right: 0;
+	background-image: url('../images/icons/ico-close.png');
+	background-position: center center;
+	background-size: 70% auto;
+	background-repeat: no-repeat;
+	background-color: @act-1;
+
+	&.active {
+		visibility: visible;
+		top: 0;
+	}
+}
+
+.nav-group {
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	z-index: 100;
+
+	[class^="nav-"] {
+		display: inline-block;
+		width: 26px;
+		height: 26px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+	}
+
+	.nav-prev {
+		background-image: url('../images/icons/ico-prev.png');
+	}
+
+	.nav-next {
+		background-image: url('../images/icons/ico-next.png');
+	}
+}
+
+.btn-back {
+	.radius(4px);
+	display: none;
+	padding: 2px 10px 2px 24px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: @white;
+	font-size: 20px;
+	background: @act-1;
+
+	&:hover {
+		background: @act-2;
+		color: @white;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 5px;
+		top: 6px;
+		width: 20px;
+		height: 20px;
+		background: url('../images/icons/ico-back.png') center center no-repeat;
+		background-size: 15px auto;
+	}
+}
+
+.has-menu {
+	.sub-menu {
+		.trans(0.5s);
+		min-height: 400px;
+		position: absolute;
+		left: 0;
+		top: 132px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		z-index: 500;
+		max-height: 100%;
+		overflow: hidden;
+
+		.menu-container {
+			position: relative;
+			.clear;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 1px;
+			top: 20px;
+			left: 23.5%;
+			bottom: 20px;
+			border-right: 1px solid rgba(215, 24, 32, 0.35);
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 48%;
+			width: 1px;
+			top: 20px;
+			bottom: 20px;
+			border-right: 1px solid rgba(215, 24, 32, 0.35);
+		}
+
+
+		[class^="ico-"] {
+			.trans(0.35s);
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			top: 2px;
+			left: 0;
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+		}
+
+		.ico-menu {
+			background-image: url('../images/icons/ico-menu.png')
+		}
+
+		.ico-01 {
+			background-image: url('../images/icons/ico_01.png')
+		}
+
+		.ico-02 {
+			background-image: url('../images/icons/ico_02.png')
+		}
+
+		.ico-03 {
+			background-image: url('../images/icons/ico_03.png')
+		}
+
+		.ico-04 {
+			background-image: url('../images/icons/ico_04.png')
+		}
+
+		.ico-05 {
+			background-image: url('../images/icons/ico_05.png')
+		}
+
+		.ico-06 {
+			background-image: url('../images/icons/ico_06.png')
+		}
+
+		.ico-07 {
+			background-image: url('../images/icons/ico_07.png')
+		}
+
+		.ico-08 {
+			background-image: url('../images/icons/ico_08.png')
+		}
+
+		.ico-09 {
+			background-image: url('../images/icons/ico_09.png')
+		}
+
+		.ico-10 {
+			background-image: url('../images/icons/ico_10.png')
+		}
+
+		.ico-11 {
+			background-image: url('../images/icons/ico_11.png')
+		}
+
+		.ico-12 {
+			background-image: url('../images/icons/ico_12.png')
+		}
+
+		.ico-13 {
+			background-image: url('../images/icons/ico_13.png')
+		}
+
+		.ico-14 {
+			background-image: url('../images/icons/ico_14.png')
+		}
+
+		.ico-15 {
+			background-image: url('../images/icons/ico_15.png')
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+
+			li {
+				.clear;
+				margin: 0 0 5px;
+				position: relative;
+
+				&::after {
+					content: "";
+					position: absolute;
+					left: auto;
+					right: 0;
+					top: 20px;
+					width: 20px;
+					height: 20px;
+					-webkit-transform: translateY(-50%) rotate(90deg);
+					-moz-transform: translateY(-50%) rotate(90deg);
+					-ms-transform: translateY(-50%) rotate(90deg);
+					-o-transform: translateY(-50%) rotate(90deg);
+					transform: translateY(-50%) rotate(90deg);
+					background-image: url('../images/icons/ico-acc_caret.png');
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				a {
+					background: none;
+					font-size: 22px;
+					color: @black;
+					position: relative;
+					font-family: @reg;
+					font-weight: normal;
+					padding: 5px 15px 5px 40px;
+
+					&.active, &:hover {
+						color: @act-1;
+
+						[class^="ico-"] {
+							background-position: 0 -30px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.tab-menu {
+		margin: 20px 0;
+		display: inline-block;
+		width: 20%;
+		float: left;
+		padding-right: 20px;
+	}
+
+	.tab-list {
+		display: inline-block;
+		width: 80%;
+		position: absolute;
+		left: 20%;
+		padding: 20px 0;
+
+		.list-menu {
+			display: inline-block;
+			position: absolute;
+			width: 35%;
+			left: 0;
+
+			.link-menu {
+				.trans(0.2s);
+				display: inline-block;
+				width: 100%;
+				position: absolute;
+				padding: 0 20px 20px;
+				top: 0;
+				opacity: 0;
+				left: 0;
+				visibility: hidden;
+
+				&.active {
+					visibility: visible;
+					opacity: 1;
+				}
+
+				ul {
+					padding: 0;
+					margin: 0;
+
+					li {
+						.clear;
+						margin: 0 0 5px;
+						position: relative;
+
+						&::after {
+							content: "";
+							position: absolute;
+							left: auto;
+							right: 0;
+							top: 20px;
+							width: 20px;
+							height: 20px;
+							-webkit-transform: translateY(-50%) rotate(90deg);
+							-moz-transform: translateY(-50%) rotate(90deg);
+							-ms-transform: translateY(-50%) rotate(90deg);
+							-o-transform: translateY(-50%) rotate(90deg);
+							transform: translateY(-50%) rotate(90deg);
+							background-image: url('../images/icons/ico-acc_caret.png');
+							background-repeat: no-repeat;
+							background-position: center center;
+						}
+
+						a {
+							display: inline-block;
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.list-detail {
+			display: inline-block;
+			width: 65%;
+			left: 35%;
+			height: 100%;
+			position: absolute;
+
+			.group-detail {
+				.trans(0.2s);
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+
+				&.active {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+
+			.link-detail {
+				padding: 20px 30px;
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+				text-align: right;
+				font-size: 24px;
+				visibility: hidden;
+
+				&.active {
+					visibility: visible;
+					opacity: 1;
+				}
+
+
+				h3 {
+					.clear;
+					margin: 0 0 5px;
+					line-height: 1;
+					color: @black;
+					font-family: @med;
+					font-size: 1.5em;
+				}
+
+				p {
+					.clear;
+					margin-bottom: 20px;
+					line-height: 1;
+					font-size: 1em;
+					font-family: @main;
+				}
+
+				.image {
+					display: inline-block;
+					width: 100%;
+					max-width: 710px;
+					border: 6px solid @act-1;
+
+					img {
+						width: 100%;
+						float: left;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+&:hover {
+	.sub-menu {
+		max-height: 100%;
+	}
+}
+
+
 /* end of Page Inner Style */
 

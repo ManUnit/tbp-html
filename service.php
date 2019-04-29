@@ -36,6 +36,10 @@ include 'inc/header.php';
 					<a href="">Specials Products</a>
 				</div>
 			</div>
+			<div class="nav-group">
+				<a href="" class="nav-prev"></a>
+				<a href="" class="nav-next"></a>
+			</div>
 		</div>
 		<h3 class="title-inner service">
 			T.B.P. Publishing Company Limited is a management service provider. And leading marketing management for industrial

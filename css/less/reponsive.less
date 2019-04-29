@@ -151,7 +151,7 @@
 	}
 
 	.pageinner-wrapper .list-products.co-sort {
-	    font-size: 20px;
+		font-size: 20px;
 	}
 }
 
@@ -248,11 +248,29 @@
 	}
 
 	.pageinner-wrapper .work-wrapper .acc-form .acc-content .content-wrapper {
-	    font-size: 20px;
+		font-size: 20px;
 	}
 
 	.pageinner-wrapper .work-wrapper .acc-form .acc-head p {
 		font-size: 22px;
+	}
+
+	.pageinner-wrapper h3.title-inner,
+	.pageinner-wrapper .block-fullwidth .block-wrapper .txt-box {
+		font-size: 24px;
+	}
+
+	.pageinner-wrapper .list-our {
+	    font-size: 22px;
+	}
+
+	.pageinner-wrapper .list-our .topic .icons {
+		width: 80px;
+		height: 80px;
+	}
+
+	.pageinner-wrapper .block-fullwidth .block-wrapper .txt-box {
+		padding: 80px 0;
 	}
 }
 
@@ -453,7 +471,7 @@
 	}
 
 	.pageinner-wrapper .list-products.co-sort {
-	    font-size: 18px;
+		font-size: 18px;
 	}
 
 	.pageinner-wrapper .list-products.co-buyers .co-profile {
@@ -470,16 +488,75 @@
 	}
 
 	.pageinner-wrapper .list-products.co-buyers li {
-	    min-height: 100px;
-	    line-height: 1;
+		min-height: 100px;
+		line-height: 1;
 	}
 
 	.pageinner-wrapper .list-products.co-buyers .co-profile, .pageinner-wrapper .list-products ul li .co-detail {
-	    font-size: 18px;
+		font-size: 18px;
 	}
 
 	.pageinner-wrapper .cd-accordion-menu label {
 		font-size: 20px;
+	}
+
+	.form-theme .btn-browse [class^="att-"] {
+		padding: 10px 50px 10px 20px;
+		font-size: 20px;
+	}
+
+	.form-theme .btn-browse [class^="att-"] .icon-plus {
+		right: 20px;
+	}
+
+	.button-control button.btn-submit {
+		padding: 10px 40px;
+		font-size: 20px;
+	}
+
+	.form-theme .txt-description {
+		font-size: 18px;
+	}
+
+	.pageinner-wrapper .contact-wrapper {
+	    font-size: 20px;
+	}
+
+	.pageinner-wrapper .contact-us #map {
+		height: 300px;
+	}
+
+	.pageinner-wrapper .block-fullwidth .block-wrapper .txt-box {
+		padding: 30px 0;
+	}
+
+	.pageinner-wrapper h3.title-inner, .pageinner-wrapper .block-fullwidth .block-wrapper .txt-box {
+	    font-size: 22px;
+	}
+
+	.pageinner-wrapper h3.title-our {
+		font-size: 50px;
+	}
+
+	.pageinner-wrapper .list-our .topic .icons {
+	    width: 60px;
+	    height: 60px;
+	}
+
+	.pageinner-wrapper .list-our .topic {
+		padding-left: 80px;
+	}
+
+	.pageinner-wrapper .list-our .topic h3 {
+		font-size: 1.2em;
+	}
+
+	.pageinner-wrapper .our-service [class^="col-"] {
+	    padding: 0 15px;
+	}
+
+	.pageinner-wrapper .our-service .row {
+	    margin: 0 -15px;
 	}
 }
 
@@ -743,15 +820,87 @@
 	}
 
 	.main-footer .menu-wrapper .nav-menu {
-	    width: 33.3333%;
+		width: 33.3333%;
 	}
 
 	.main-footer .menu-wrapper .nav-menu:nth-child(5n+1) {
-	    clear: none;
+		clear: none;
 	}
 
 	.main-footer .menu-wrapper .nav-menu:nth-child(3n+1) {
-	    clear: both;
+		clear: both;
+	}
+
+	.menu-responsive {
+		.trans(0.5s);
+		position: fixed;
+		top: -50px;
+		visibility: hidden;
+		left: 0;
+		max-height: 0;
+		height: 100%;
+		overflow-y: auto;
+		z-index: 9999;
+		width: 100%;
+		padding: 40px;
+		background-color: rgba(255, 255, 255, 0.95);
+
+		&.active {
+			top: 0;
+			visibility: visible;
+			max-height: 100%;
+		}
+	}
+
+	.popup-close {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper .nav-type {
+		margin-bottom: 0;
+	}
+
+	.pageinner-wrapper .nav-type .nav-control .nav-slide a {
+		padding-bottom: 10px;
+	}
+
+	.nav-group {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper .title-page {
+	    font-size: 22px;
+	    padding-right: 70px;
+	    position: relative;
+	}
+
+	.pageinner-wrapper .nav-type .nav-control .nav-slide {
+		display: none;
+
+		&.active {
+			display: inline-block;
+			width: auto;
+		}
+	}
+
+	.btn-back {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper .title-page h3 {
+		margin: 5px 0;
+	}
+
+	.popup-menu {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper h3.title-inner {
+		font-size: 22px;
+	}
+
+	.pageinner-wrapper .block-fullwidth .image {
+		width: 80%;
 	}
 }
 
@@ -898,6 +1047,77 @@
 
 	.industries-mobile.bg-attachment {
 		display: inline-block;
+	}
+
+	.menu-responsive {
+		.trans(0.5s);
+		position: fixed;
+		top: -50px;
+		visibility: hidden;
+		left: 0;
+		max-height: 0;
+		height: 100%;
+		overflow-y: auto;
+		z-index: 9999;
+		width: 100%;
+		padding: 40px;
+		background-color: rgba(255, 255, 255, 0.95);
+
+		&.active {
+			top: 0;
+			visibility: visible;
+			max-height: 100%;
+		}
+	}
+
+	.popup-close {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper .nav-type {
+		margin-bottom: 0;
+	}
+
+	.pageinner-wrapper .nav-type .nav-control .nav-slide a {
+		padding-bottom: 10px;
+	}
+
+	.nav-group {
+		display: inline-block;
+	}
+
+	.pageinner-wrapper .title-page {
+	    font-size: 22px;
+	    padding-right: 70px;
+	    position: relative;
+	}
+
+	.pageinner-wrapper .list-products.co-sort li .list-type a:nth-child(3n+1) {
+		clear: none;
+	}
+
+	.pageinner-wrapper .list-products.co-sort li .list-type a:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.pageinner-wrapper .list-products.co-sort li .list-type a {
+		width: 50%;
+	}
+
+	.pageinner-wrapper .list-products ul li .co-profile {
+		width: 100%;
+	}
+
+	.pageinner-wrapper .list-products.co-buyers .co-profile {
+		min-height: 85px;
+	}
+
+	.pageinner-wrapper .list-products ul li .co-detail {
+		width: 100%;
+	}
+
+	.pageinner-wrapper .contact-us #map {
+		height: 300px;
 	}
 }
 
@@ -1146,5 +1366,48 @@
 
 	.main-footer .menu-wrapper .nav-menu:nth-child(3n+1) {
 		clear: none;
+	}
+
+	.pageinner-wrapper .list-products.co-sort li .list-type a:nth-child(2n+1) {
+	    clear: none;
+	}
+
+	.pageinner-wrapper .list-products.co-sort li .list-type a {
+	    width: 100%;
+	}
+
+	.pageinner-wrapper .list-products ul li .co-profile .image {
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	.pageinner-wrapper .contact-us #map {
+		left: 0;
+		right: 0;
+	}
+
+	.pageinner-wrapper .cover-image.contact-us .cover-title {
+		left: 0;
+	}
+
+	.pageinner-wrapper .block-fullwidth .block-wrapper .txt-box h3 {
+		font-size: 2em;
+	}
+
+	.pageinner-wrapper .block-fullwidth .block-wrapper .txt-box {
+		width: 100%;
+	}
+
+	.pageinner-wrapper .block-fullwidth .image {
+	    width: 100%;
+	    opacity: 0.3;
+	}
+
+	.pageinner-wrapper .list-our .topic {
+		margin-bottom: 0;
+	}
+
+	.pageinner-wrapper h3.title-our {
+		margin: 20px 0 10px;
 	}
 }

@@ -59,8 +59,175 @@
 					<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
 						<a href="index.php" class="animated-button victoria-four">Home</a>
 					</li>
-					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?>">
+					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?> has-menu" >
 						<a href="products-category.php" class="animated-button victoria-four">Products</a>
+						<!-- <div class="sub-menu">
+							<div class="container">
+								<div class="menu-container">
+									<div class="popup-close"></div>
+									<div class="tab-menu">
+										<ul>
+											<li data-id="1">
+												<a href="" class="active"><i class="ico-01"></i>Construction</a>
+											</li>
+											<li data-id="2">
+												<a href=""><i class="ico-02"></i>Machinery</a>
+											</li>
+											<li data-id="3">
+												<a href=""><i class="ico-03"></i>Tools & Instruments</a>
+											</li>
+											<li data-id="4">
+												<a href=""><i class="ico-04"></i>Material Handling</a>
+											</li>
+											<li data-id="5">
+												<a href=""><i class="ico-05"></i>Valves Pumps Pipes</a>
+											</li>
+											<li data-id="6">
+												<a href=""><i class="ico-06"></i>Metal & Metal Working</a>
+											</li>
+											<li data-id="7">
+												<a href=""><i class="ico-07"></i>Chemical Plastics Gas</a>
+											</li>
+											<li data-id="8">
+												<a href=""><i class="ico-08"></i>Electric Power</a>
+											</li>
+											<li data-id="9">
+												<a href=""><i class="ico-09"></i>Packaging & Storaging</a>
+											</li>
+											<li data-id="10">
+												<a href=""><i class="ico-10"></i>Automotive Industry</a>
+											</li>
+											<li data-id="11">
+												<a href=""><i class="ico-11"></i>Renewable Energy</a>
+											</li>
+											<li data-id="12">
+												<a href=""><i class="ico-12"></i>Office Automation</a>
+											</li>
+											<li data-id="13">
+												<a href=""><i class="ico-13"></i>Air Conditioning</a>
+											</li>
+											<li data-id="14">
+												<a href=""><i class="ico-14"></i>Logistics & Transpot</a>
+											</li>
+											<li data-id="15">
+												<a href=""><i class="ico-15"></i>Services Business</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tab-list">
+										<div class="list-menu">
+											<div class="link-menu tab-1">
+												<ul>
+													<li class="active">
+														<a href="">Contractor for consulting, Project management, Architect</a>
+													</li>
+													<li>
+														<a href="">Machine tools used in construction</a>
+													</li>
+													<li>
+														<a href="">Scaffolding</a>
+													</li>
+													<li>
+														<a href="">Demolition service</a>
+													</li>
+													<li>
+														<a href="">Anti-rust, prevent and eliminate</a>
+													</li>
+													<li>
+														<a href="">Glass-wholesale and manufacturer</a>
+													</li>
+													<li>
+														<a href="">Glass-coated or plastered materials</a>
+													</li>
+													<li>
+														<a href="">Glass - Engraved and grinding service</a>
+													</li>
+													<li>
+														<a href="">Color changing glass</a>
+													</li>
+													<li>
+														<a href="">Glazed Tiles - Products</a>
+													</li>
+												</ul>
+											</div>
+											<div class="link-menu tab-2">
+												<ul>
+													<li data-id="1-1">
+														<a href="">coated or plastered materials</a>
+													</li>
+													<li data-id="1-2">
+														<a href="">Engraved and grinding service</a>
+													</li>
+													<li data-id="1-3">
+														<a href="">Color changing glass</a>
+													</li>
+													<li data-id="1-4">
+														<a href="">Glazed Tiles - Products</a>
+													</li>
+												</ul>
+											</div>
+											<div class="link-menu tab-3">
+												<ul>
+													<li>
+														<a href="">Glazed Tiles - Products</a>
+													</li>
+													<li>
+														<a href="">Glass - Engraved and grinding service</a>
+													</li>
+													<li>
+														<a href="">Color changing glass</a>
+													</li>
+													<li>
+														<a href="">Glazed Tiles - Products</a>
+													</li>
+												</ul>
+											</div>
+											<div class="link-menu tab-4">
+												<ul>
+													<li>
+														<a href="">Engraved and grinding service</a>
+													</li>
+													<li>
+														<a href="">Color changing glass</a>
+													</li>
+													<li>
+														<a href="">Glazed Tiles - Products</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="list-detail">
+											<div class="group-detail tab-1">
+												<div class="link-detail tab-1-1">
+													<h3>Contractor for consulting, Project management, Architect<</h3>
+													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+													<div class="image">
+														<img src="images/home/sub-img-01_710x380.jpg" alt="">
+													</div>
+												</div>
+												<div class="link-detail tab-1-2">
+													<h3>Contractor for consulting, Project management, Architect<</h3>
+													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+													<div class="image">
+														<img src="images/home/sub-img-01_710x380.jpg" alt="">
+													</div>
+												</div>
+												<div class="link-detail tab-1-3">
+													<h3>Contractor for consulting, Project management, Architect<</h3>
+													<p>We tend to integrate our experience in architectural designs along with our unique.</p>
+
+													<div class="image">
+														<img src="images/home/sub-img-01_710x380.jpg" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
 					</li>
 					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
 						<a href="join-us.php" class="animated-button victoria-four">Join Us</a>

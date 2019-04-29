@@ -23,6 +23,10 @@ include 'inc/header.php';
 				<img src="images/products/cover_1700x450.jpg" alt="">
 			</div>
 		</div>
+		<div class="popup-menu">
+			<i class="ico-menu"></i>
+			<p>Menu Category</p>
+		</div>
 		<div class="nav-type">
 			<div class="nav-control">
 				<div class="nav-slide">
@@ -38,10 +42,15 @@ include 'inc/header.php';
 					<a href="products-brands.php">Type by Brands</a>
 				</div>
 			</div>
+			<div class="nav-group">
+				<a href="products-type.php" class="nav-prev"></a>
+				<a href="products-buyers.php" class="nav-next"></a>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
 				<div class="menu-responsive">
+					<div class="popup-close"></div>
 					<ul class="cd-accordion-menu animated">
 						<li class="has-children">
 							<input type="checkbox" name ="group-1" id="group-1" checked>
@@ -336,6 +345,7 @@ include 'inc/header.php';
 			<div class="col-md-9">
 				<div class="title-page">
 					<h3>Construction - Contractor for consulting, Project management, Architect</h3>
+					<a href="products-category.php" class="btn-back">Back</a>
 				</div>
 				<div class="list-products co-sort">
 					<ul>

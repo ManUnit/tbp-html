@@ -60,7 +60,7 @@ include 'inc/header.php';
 					<div class="topic-box">
 						<h3>Contact Us</h3>
 					</div>
-					<form action="">
+					<form action="" class="form-theme">
 						<div class="form-group">
 							<div class="col-sm-12 input-control">
 								<input type="text" class="form-control" id="" placeholder="Contact Topic">
