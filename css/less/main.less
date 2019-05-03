@@ -5102,5 +5102,58 @@ a.animated-button.victoria-four:hover:after {
 	}
 }
 
+.btn-to-top {
+	.trans(0.50s);
+	.radius(4px);
+	visibility: hidden;
+	opacity: 0;
+	max-width: 70px;
+	width: 100%;
+	overflow: hidden;
+	background: @act-2;
+	position: fixed;
+	right: 20px;
+	bottom: 0;
+	padding: 10px 5px;
+	z-index: 999;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
+	font-size: 18px;
+	text-align: center;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+
+	&.active {
+		visibility: visible;
+		opacity: 1;
+		bottom: 150px;
+	}
+
+	img {
+		width: 100%;
+		max-width: 23px;
+		margin-bottom: 5px;
+	}
+
+	&:hover {
+		background: @act-1;
+	}	
+
+	p {
+		.clear;
+		font-size: 1em;
+		margin-bottom: 0;
+		color: @white;
+	}
+
+	span {
+		.clear;
+		font-size: 1.4em;
+		color: @white;
+	}
+}
+
 /* end of Page Inner Style */
 

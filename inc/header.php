@@ -477,3 +477,9 @@
 		</div>
 	</div>
 </div>
+
+<div class="btn-to-top">
+	<img src="images/icons/ico-top.png" alt="">
+	<p>GO TO</p>
+	<span>TOP</span>
+</div>

@@ -157,9 +157,23 @@ $(document).ready(function () {
 		$('.link-detail.tab-' + lv1_id + '-' + lv2_id).addClass('active');
 		console.log(lv1_id + '-' + lv2_id);
 	});
+
+	$(".btn-to-top").click(function () {
+		$("html, body").animate({scrollTop: 0}, 1000);
+	});
 });
 
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
+     //>=, not <=
+    if (scroll >= 500) {
+        //clearHeader, not clearheader - caps H
+        $(".btn-to-top").addClass("active");
+    } else {
+    	$(".btn-to-top").removeClass("active");
+    }
+}); 
 
 
 
