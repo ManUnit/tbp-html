@@ -470,7 +470,7 @@
 						<a href="service.php">My Service</a>
 					</li>
 					<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
-						<a href="javascript:void(0);">Contact Us</a>
+						<a href="contact.php">Contact Us</a>
 					</li>
 				</ul>
 			</div>

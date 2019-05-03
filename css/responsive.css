@@ -607,22 +607,27 @@
   }
   .section-control.news-and-vdo .vdo-wrapper.expand .title-box h3 {
     -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
     transition-delay: 0s;
   }
   .section-control.news-and-vdo .vdo-wrapper.expand [class^="col-"]:nth-child(1) .vdo-item {
     -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
   .section-control.news-and-vdo .vdo-wrapper.expand [class^="col-"]:nth-child(2) .vdo-item {
     -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
     transition-delay: 0.5s;
   }
   .section-control.news-and-vdo .vdo-wrapper.expand [class^="col-"]:nth-child(3) .vdo-item {
     -webkit-transition-delay: 0.7s;
+    -o-transition-delay: 0.7s;
     transition-delay: 0.7s;
   }
   .section-control.news-and-vdo .vdo-wrapper.expand .button-control {
     -webkit-transition-delay: 0.9s;
+    -o-transition-delay: 0.9s;
     transition-delay: 0.9s;
   }
   .section-control.industries {
@@ -795,7 +800,7 @@
     -webkit-backface-visibility: hidden;
     opacity: 0;
     visibility: hidden;
-    left: 100px;
+    left: 0;
     top: 28px;
     position: absolute;
     z-index: 999999;
@@ -846,6 +851,7 @@
   }
   body.noScroll {
     overflow: hidden;
+    position: fixed;
   }
   .main-header {
     padding: 10px 0;
