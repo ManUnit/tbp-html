@@ -5,572 +5,606 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 
-<div class="main-banner">
-	<div class="slider-control">
-		<div class="item">
-			<picture class="image">
-				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
-				<img src="images/home/banner-01_1920x580.jpg" alt="">
-			</picture>
-		</div>
-		<div class="item">
-			<picture class="image">
-				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
-				<img src="images/home/banner-01_1920x580.jpg" alt="">
-			</picture>
-		</div>
-		<div class="item">
-			<picture class="image">
-				<source srcset="images/home/banner-01_600x800.jpg" media="(max-width: 415px)">
-				<img src="images/home/banner-01_1920x580.jpg" alt="">
-			</picture>
-		</div>
-	</div>
-</div>
 
-<div class="section-control specials-products">
+<div class="section-control bg-attachment catalog-online">
 	<div class="container">
-		<div class="banner-wrapper  scroll-event">
-			<div class="banner-top">
-				<a class="btn-link" href="#"></a>
-				<div class="txt-box boxLeft">
-					<h3>Smart Solutions</h3>
-					<p>Create Intelligent Manufacturing</p>
-				</div>
-				<div class="image-box">
-					<img src="images/home/banner-01_500x340.png" alt="">
-				</div>
-				<div class="txt-box boxRight">
-					<p>Focus On Bringing Machinery</p>
-					<h3>Modern Industry</h3>
-				</div>
+		<div class="head-slide">
+			<div class="head-wrap">
+				<h3>Catalog Online</h3>
+				<p>พวกเราได้รวบรวมแบรนด์ชั้นนำมาไว้ให้คุณแล้วที่นี่</p>
 			</div>
-			<div class="banner-bottom">
-				<div class="banner-left">
-					<div class="inner-wrapper">
-						<a class="btn-link" href="#"></a>
-						<div class="txt-box">
-							<h4>
-								The Top Model
-								<p>
-									in the compact class
-								</p>
-							</h4>
-							<p>
-								Another highlight is the Felder Quick
-								set system which is included as standard
-								and enables the most precise and ...
-							</p>
-							<div class="button-control">
-								<span class="btn-view light">View More</span>
-							</div>
-						</div>
-						<div class="image-box">
-							<img src="images/home/banner-02_500x340.png" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="banner-right">
-					<div class="inner-wrapper">
-						<a class="btn-link" href="#"></a>
-						<div class="txt-box">
-							<h4>
-								The Most Important
-								<p>
-									Highlights at a glance
-								</p>
-							</h4>
-							<p>
-								It’s amazing how many perfect component
-								are integrated in this machine and all for
-								an unbelievably low price ...
-							</p>
-							<div class="button-control">
-								<span class="btn-view light">View More</span>
-							</div>
-						</div>
-						<div class="image-box">
-							<img src="images/home/banner-03_500x340.png" alt="">
-						</div>
-					</div>
-				</div>
+			<div class="button-control">
+				<a href="" class="btn-view light">ดูทั้งหมด</a>
 			</div>
 		</div>
-	</div>
-</div>
-
-<div class="section-control products">
-	<div class="container">
-		<div class="products-slide scroll-event">
-			<div class="nav-products">
-				<div class="nav-control">
-					<div class="nav-slide active" data-slide="1">
-						<p>Feature Products</p>
-					</div>
-					<div class="nav-slide" data-slide="2">
-						<p>Latest Products</p>
-					</div>
-					<div class="nav-slide" data-slide="3">
-						<p>Featured Products</p>
-					</div>
-					<div class="nav-slide" data-slide="4">
-						<p>Specials Products</p>
-					</div>
-				</div>
-			</div>
+		<div class="catalog-slider">
 			<div class="slider-control">
 				<div class="item">
-					<div class="category-name">
-						<h3>Feature Products</h3>
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-01.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-02.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-03.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-04.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-05.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-06.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>		
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-06.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>			
+				<div class="item">
+					<a href="">
+						<div class="cate-item">
+							<div class="image">
+								<img src="images/home/cate-06.jpg" alt="">
+							</div>
+						</div>
+					</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-control trendy">
+	<div class="container">
+		<div class="title-box">
+			<h3>Trendy on Thailand Business Pages</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 01</span>
+							<img src="images/home/trendy-01.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 02</span>
+							<img src="images/home/trendy-02.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 03</span>
+							<img src="images/home/trendy-01.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 04</span>
+							<img src="images/home/trendy-02.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 05</span>
+							<img src="images/home/trendy-02.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 06</span>
+							<img src="images/home/trendy-01.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 07</span>
+							<img src="images/home/trendy-02.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3 news-control">
+				<div class="trendy-item">
+					<div class="image-wrapper">
+						<a href=""></a>
+						<span class="hilight"></span>
+						<div class="image">
+							<span>Trendy Products 08</span>
+							<img src="images/home/trendy-01.jpg" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-control bg-attachment catalog-group">
+	<div class="container">
+		<div class="category-wrapper">
+			<div class="category-list bg-green">
+				<span class="hilight"></span>
+				<div class="inner-wrapper">
+					<div class="group-lg-wrapper">
+						<div class="cate-group">				
+							<h3>Packaging & <br>Printing Technology</h3>
+							<div class="image">
+								<img src="images/home/pack-01.png" alt="">
+							</div>							
+						</div>
+						<div class="button-control">
+							<a href="" class="btn-red">See More</a>
+						</div>
 					</div>
+					<div class="group-sm-wrapper">
+						<div class="cate-group">
+							<a href="">
+								<p>Printing Paper</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Packaging</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Bottling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Filling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Labelling</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Marking Machinery</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category-list bg-orange">
+				<span class="hilight"></span>
+				<div class="inner-wrapper">
+					<div class="group-lg-wrapper">
+						<div class="cate-group">				
+							<h3>Packaging & <br>Printing Technology</h3>
+							<div class="image">
+								<img src="images/home/pack-02.png" alt="">
+							</div>							
+						</div>
+						<div class="button-control">
+							<a href="" class="btn-red">See More</a>
+						</div>
+					</div>
+					<div class="group-sm-wrapper">
+						<div class="cate-group">
+							<a href="">
+								<p>Printing Paper</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Packaging</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Bottling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Filling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Labelling</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Marking Machinery</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category-list bg-green">
+				<span class="hilight"></span>
+				<div class="inner-wrapper">
+					<div class="group-lg-wrapper">
+						<div class="cate-group">				
+							<h3>Packaging & <br>Printing Technology</h3>
+							<div class="image">
+								<img src="images/home/pack-03.png" alt="">
+							</div>							
+						</div>
+						<div class="button-control">
+							<a href="" class="btn-red">See More</a>
+						</div>
+					</div>
+					<div class="group-sm-wrapper">
+						<div class="cate-group">
+							<a href="">
+								<p>Printing Paper</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Packaging</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Bottling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Filling Machines</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Labelling</p>
+								<div class="image">
+									<img src="images/home/trendy-02.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="cate-group">
+							<a href="">
+								<p>Marking Machinery</p>
+								<div class="image">
+									<img src="images/home/trendy-01.jpg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-control bg-attachment monthly-deal">
+	<div class="container">
+		<div class="head-slide">
+			<div class="head-wrap">
+				<h3>MONTHLY DEALS</h3>
+			</div>
+			<div class="button-control">
+				<a href="" class="btn-view light">See More</a>
+			</div>
+		</div>
+		<div class="monthly-slider">
+			<div class="slider-control">
+				<div class="item">
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
 								<img src="images/home/product-01_400x300.png" alt="">
 							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The new FELDER K 700 is quite simply in a class
-									of it own Solid construction and intuitive solutions
-									for woodworkers with high demands with intell...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-02_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									These machines will provide you with more precision
-									quality than you could ever imagine from a thickness
-									for decades the Felder system with double sided...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-03_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Spindle Moulder : F 500 M</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									Precision Austrian mechanical engineering, high
-									operating comfort and durable reliability the new
-									moulders of the Felder 500 series are convincin...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-04_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Brushing machine : ST 602</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The solid machine chassis of the robust brushing
-									machine structura offers maximum stability. With
-									working width of 650 mm and a variably infeed...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
+							<div class="detail-wrapper">
+								<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
+								<div class="stars stars-example-css">
+									<select class="bar-rating" name="rating" autocomplete="off">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4" selected="selected">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								<div class="detail">
+									<p>
+										The new FELDER K 700 is quite simply in a class
+										of it own Solid construction and intuitive solutions
+										for woodworkers with high demands with intell...
+									</p>								
+								</div>	
+								<div class="price">
+									<p>พิเศษ 50,xxx บาท</p>
+									<span>จากปกติ <i>90,XXX</i> บาท</span>
+								</div>	
+							</div>					
 						</div>
 					</div>
 				</div>
 				<div class="item">
-					<div class="category-name">
-						<h3>Latest Products</h3>
-					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
 								<img src="images/home/product-02_400x300.png" alt="">
 							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The new FELDER K 700 is quite simply in a class
-									of it own Solid construction and intuitive solutions
-									for woodworkers with high demands with intell...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-02_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									These machines will provide you with more precision
-									quality than you could ever imagine from a thickness
-									for decades the Felder system with double sided...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-02_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Spindle Moulder : F 500 M</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									Precision Austrian mechanical engineering, high
-									operating comfort and durable reliability the new
-									moulders of the Felder 500 series are convincin...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-02_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Brushing machine : ST 602</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The solid machine chassis of the robust brushing
-									machine structura offers maximum stability. With
-									working width of 650 mm and a variably infeed...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
+							<div class="detail-wrapper">
+								<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
+								<div class="stars stars-example-css">
+									<select class="bar-rating" name="rating" autocomplete="off">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4" selected="selected">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								<div class="detail">
+									<p>
+										The new FELDER K 700 is quite simply in a class
+										of it own Solid construction and intuitive solutions
+										for woodworkers with high demands with intell...
+									</p>								
+								</div>	
+								<div class="price">
+									<p>พิเศษ 50,xxx บาท</p>
+									<span>จากปกติ <i>90,XXX</i> บาท</span>
+								</div>	
+							</div>					
 						</div>
 					</div>
 				</div>
 				<div class="item">
-					<div class="category-name">
-						<h3>Featured Products</h3>
-					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
 								<img src="images/home/product-03_400x300.png" alt="">
 							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The new FELDER K 700 is quite simply in a class
-									of it own Solid construction and intuitive solutions
-									for woodworkers with high demands with intell...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-03_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									These machines will provide you with more precision
-									quality than you could ever imagine from a thickness
-									for decades the Felder system with double sided...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-03_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Spindle Moulder : F 500 M</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									Precision Austrian mechanical engineering, high
-									operating comfort and durable reliability the new
-									moulders of the Felder 500 series are convincin...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-03_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Brushing machine : ST 602</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The solid machine chassis of the robust brushing
-									machine structura offers maximum stability. With
-									working width of 650 mm and a variably infeed...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
+							<div class="detail-wrapper">
+								<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
+								<div class="stars stars-example-css">
+									<select class="bar-rating" name="rating" autocomplete="off">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4" selected="selected">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								<div class="detail">
+									<p>
+										The new FELDER K 700 is quite simply in a class
+										of it own Solid construction and intuitive solutions
+										for woodworkers with high demands with intell...
+									</p>								
+								</div>	
+								<div class="price">
+									<p>พิเศษ 50,xxx บาท</p>
+									<span>จากปกติ <i>90,XXX</i> บาท</span>
+								</div>	
+							</div>					
 						</div>
 					</div>
 				</div>
 				<div class="item">
-					<div class="category-name">
-						<h3>Specials Products</h3>
-					</div>
 					<div class="product-item">
 						<div class="item-wrapper">
 							<div class="image">
 								<img src="images/home/product-04_400x300.png" alt="">
 							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The new FELDER K 700 is quite simply in a class
-									of it own Solid construction and intuitive solutions
-									for woodworkers with high demands with intell...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-04_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									These machines will provide you with more precision
-									quality than you could ever imagine from a thickness
-									for decades the Felder system with double sided...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-04_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Spindle Moulder : F 500 M</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									Precision Austrian mechanical engineering, high
-									operating comfort and durable reliability the new
-									moulders of the Felder 500 series are convincin...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
-						</div>
-					</div>
-					<div class="product-item">
-						<div class="item-wrapper">
-							<div class="image">
-								<img src="images/home/product-04_400x300.png" alt="">
-							</div>
-							<a href="" class="item-name">Brushing machine : ST 602</a>
-							<div class="stars stars-example-css">
-								<select class="bar-rating" name="rating" autocomplete="off">
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4"selected="selected">4</option>
-									<option value="5">5</option>
-								</select>
-							</div>
-							<div class="detail">
-								<p>
-									The solid machine chassis of the robust brushing
-									machine structura offers maximum stability. With
-									working width of 650 mm and a variably infeed...
-								</p>
-							</div>
-							<div class="button-control">
-								<a href="" class="btn-view">View More</a>
-							</div>
+							<div class="detail-wrapper">
+								<a href="" class="item-name">Sliding Table Panel Saw : K 700</a>
+								<div class="stars stars-example-css">
+									<select class="bar-rating" name="rating" autocomplete="off">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4" selected="selected">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								<div class="detail">
+									<p>
+										The new FELDER K 700 is quite simply in a class
+										of it own Solid construction and intuitive solutions
+										for woodworkers with high demands with intell...
+									</p>								
+								</div>	
+								<div class="price">
+									<p>พิเศษ 50,xxx บาท</p>
+									<span>จากปกติ <i>90,XXX</i> บาท</span>
+								</div>	
+							</div>					
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-white"></div>
+</div>
+
+<div class="section-control request-quotation">
+	<div class="container">
+		<div class="title-box">
+			<h3>Request For Quotation</h3>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-quotation">
+					<form action="">
+						<h3>One Request, Multiple Quotes</h3>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<p>What are you looking for</p>			
+									<select class="select2" name="" style="width: 100%">
+										<option value="" selected>What are you looking for...</option>
+									</select>			
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<p>Quantity</p>			
+									<select class="select2" name="" style="width: 100%">
+										<option value="" selected>Quantity</option>
+									</select>			
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<p>Piece</p>			
+									<select class="select2" name="" style="width: 100%">
+										<option value="" selected>Piece / Pieces</option>
+									</select>			
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-group">
+									<p>Company Name</p>			
+									<input type="text" class="form-control" placeholder="name@company.com">		
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="button-control">
+									<button class="btn-submit" type="button">Request For Quotation</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="cover-quotation" style="background-image: url('images/home/cover-quotation.jpg');"></div>
 			</div>
 		</div>
 	</div>
@@ -578,7 +612,7 @@ include 'inc/header.php';
 
 <div class="section-control facility">
 	<div class="container">
-		<div class="facility-wrapper scroll-event">
+		<div class="facility-wrapper">
 			<div class="inner-wrapper">
 				<div class="image-wrapper boxLeft">
 					<span class="hilight"></span>
@@ -632,17 +666,17 @@ include 'inc/header.php';
 		</div>
 	</div>
 </div>
-
+ 
 <div class="section-control news-and-vdo ">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-9 col-md-12">
-				<div class="news-wrapper scroll-event">
+			<div class="col-md-12">
+				<div class="news-wrapper">
 					<div class="title-box">
 						<h3>Latest News</h3>
 					</div>
 					<div class="row">
-						<div class="col-sm-6 col-md-4 news-control">
+						<div class="col-sm-6 col-md-3 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -661,7 +695,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 news-control">
+						<div class="col-sm-6 col-md-3 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -680,7 +714,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 news-control">
+						<div class="col-sm-6 col-md-3 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -699,7 +733,7 @@ include 'inc/header.php';
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 news-control">
+						<div class="col-sm-6 col-md-3 news-control">
 							<div class="news-item">
 								<div class="image-wrapper">
 									<a href=""></a>
@@ -717,56 +751,18 @@ include 'inc/header.php';
 									</p>
 								</div>
 							</div>
-						</div>
-						<div class="col-sm-6 col-md-4 news-control">
-							<div class="news-item">
-								<div class="image-wrapper">
-									<a href=""></a>
-									<span class="hilight"></span>
-									<div class="image">
-										<img src="images/home/news-05_400x220.jpg" alt="">
-									</div>
-								</div>
-								<div class="txt-wrapper">
-									<a href="">U.S. manufacturers added 24,000...</a>
-									<p>
-										Manitowoc launches the sale of a new model for their
-										famous make Potain. It is an inside operator lift adapt
-										inside the crane masts. It is called Potain Cab-IN....
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-4 news-control">
-							<div class="news-item">
-								<div class="image-wrapper">
-									<a href=""></a>
-									<span class="hilight"></span>
-									<div class="image">
-										<img src="images/home/news-06_400x220.jpg" alt="">
-									</div>
-								</div>
-								<div class="txt-wrapper">
-									<a href="">Cab-IN, an operator lift inside the...</a>
-									<p>
-										the seventh consecutive month of robust gains, while
-										total employment reach more than 12 million workers.
-										That marks the highest level of manufacturing empl...
-									</p>
-								</div>
-							</div>
-						</div>
+						</div>										
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-12">
-				<div class="vdo-wrapper scroll-event">
+			<div class="col-md-12">
+				<div class="vdo-wrapper">
 					<div class="title-box">
 						<h3>Hot Videos</h3>
 					</div>
 					<div class="vdo-control">
 						<div class="row">
-							<div class="col-lg-12 col-sm-4">
+							<div class="col-sm-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -780,7 +776,7 @@ include 'inc/header.php';
 									<a data-fancybox href="https://www.youtube.com/watch?v=LVYUss6pJqQ" class="play-vdo"></a>
 								</div>
 							</div>
-							<div class="col-lg-12 col-sm-4">
+							<div class="col-sm-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -794,7 +790,7 @@ include 'inc/header.php';
 									<a data-fancybox href="https://www.youtube.com/watch?v=pD2Bl0ZhBRQ" class="play-vdo"></a>
 								</div>
 							</div>
-							<div class="col-lg-12 col-sm-4">
+							<div class="col-sm-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -804,6 +800,20 @@ include 'inc/header.php';
 									</div>
 									<div class="image">
 										<img src="images/home/vdo-03_370x210.jpg" alt="">
+									</div>
+									<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="vdo-item">
+									<div class="txt-box">
+										<p>
+											Make In India- Innovation
+											In Automobile Industry
+										</p>
+									</div>
+									<div class="image">
+										<img src="images/home/vdo-04_370x210.jpg" alt="">
 									</div>
 									<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
 								</div>
@@ -818,253 +828,10 @@ include 'inc/header.php';
 		</div>
 	</div>
 </div>
-<div class="section-control industries-mobile bg-attachment scroll-event">
-	<div class="container">
-		<div class="txt-box">
-			<h3>Industry Solution Experiences</h3>
-			<h4>Serving 15 Industries</h4>
-		</div>
-		<div class="slider-control">
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-01_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Construction</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-02_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Machinery</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-03_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Tools & Instruments</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-04_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Material Handling</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-05_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Valves Pumps Pipes</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<a href=""></a>
-				<div class="image-box">
-					<div class="image">
-						<img src="images/home/item-06_240x240.jpg" alt="">
-					</div>
-				</div>
-				<div class="content">
-					<div class="txt">
-						<p>Metal & Metal Working</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="section-control bg-attachment industries">
-	<div class="container">
-		<div class="category-wrapper scroll-event">
-			<div class="title-group">
-				<h3>Industry Solution Experiences</h3>
-				<p>Serving 15 Industries</p>
-			</div>
-			<div class="row-wrapper">
-				<div class="category-item item-offset-4">
-					<div class="inner-wrapper clr-01">
-						<a href="#"></a>
-						<p>Construction</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-01_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-02">
-						<a href="#"></a>
-						<p>Machinery</p>
-					</div>
-				</div>
-			</div>
-			<div class="row-wrapper">
-				<div class="category-item item-offset-2">
-					<div class="inner-wrapper clr-03">
-						<a href="#"></a>
-						<p>Tools & Instruments</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-02">
-						<a href="#"></a>
-						<p>Material Handling</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-02_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-03">
-						<a href="#"></a>
-						<p>Valves Pumps Pipes</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-01">
-						<a href="#"></a>
-						<p>Metal & Metal Working</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-02">
-						<a href="#"></a>
-						<p>Chemical Plastics Gas</p>
-					</div>
-				</div>
-			</div>
-			<div class="row-wrapper">
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-03_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-01">
-						<a href="#"></a>
-						<p>Electric Power</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-04_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-03">
-						<a href="#"></a>
-						<p>Packaging & Storaging</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-01">
-						<a href="#"></a>
-						<p>Automotive Industry</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-02">
-						<a href="#"></a>
-						<p>Renewable Energy</p>
-					</div>
-				</div>
-			</div>
-			<div class="row-wrapper">
-				<div class="category-item item-offset-1">
-					<div class="inner-wrapper clr-03">
-						<a href="#"></a>
-						<p>Office Automation</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-02">
-						<a href="#"></a>
-						<p>Air Conditioning</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-01">
-						<a href="#"></a>
-						<p>Logistics & Transpot</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-05_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper clr-03">
-						<a href="#"></a>
-						<p>Services Business</p>
-					</div>
-				</div>
-				<div class="category-item">
-					<div class="inner-wrapper no-clr">
-						<a href="#"></a>
-						<div class="image">
-							<img src="images/home/item-06_240x240.jpg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
 <div class="section-control counter-number">
 	<div class="container">
-		<ul class="number-control scroll-event">
+		<ul class="number-control">
 			<li class="number-wrapper">
 				<div class="num counter">3,600</div>
 				<div class="txt">Products</div>
@@ -1093,5 +860,15 @@ include 'inc/header.php';
 	</div>
 </div>
 
-<?php include 'inc/footer.php';?>
-<?php include 'inc/javascript.php';?>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+<script>
+	var getHeight = $('.product-item .detail-wrapper').outerHeight();
+	$('.monthly-deal .bg-white').height(getHeight + 55);
+
+	$('.select2').select2();
+
+</script>
+
+<?php include 'inc/footer.php'; ?>
+<?php include 'inc/javascript.php'; ?>

@@ -50,9 +50,20 @@ $(document).ready(function () {
 		$('.main-banner').addClass('active');
 	}, 500);
 
-	var $product_slide = $('.products-slide .slider-control');
-	$product_slide.slick({
-		slidesToShow: 1,
+	var $monthly_slide = $('.monthly-slider .slider-control');
+	$monthly_slide.slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		centerPadding: 0,
+		arrows: true,
+		speed: 1200,
+		slidesToScroll: 1,
+		draggable: false
+	});
+
+	var $catalog_slide = $('.catalog-slider .slider-control');
+	$catalog_slide.slick({
+		slidesToShow: 6,
 		slidesToScroll: 1,
 		centerPadding: 0,
 		arrows: true,
@@ -94,7 +105,7 @@ $(document).ready(function () {
 		placeholder: false
 	});
 
-	$('.counter').countUp();
+	// $('.counter').countUp();
 
 
 	// $(".hasScroll").mCustomScrollbar({

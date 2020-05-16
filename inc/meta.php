@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="js/plugin/flagstrap/flags.css">
     <link rel="stylesheet" href="js/plugin/bar-rating/css-stars.css">
     <link rel="stylesheet" href="css/multilevel-accordion.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
