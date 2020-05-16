@@ -5698,7 +5698,7 @@ a.animated-button.victoria-four:hover:after {
   bottom: 0;
 }
 
-.product-item .item-wrapper {
+.monthly-slider .product-item .item-wrapper {
   display: inline-block;
   width: 100%;
   max-width: 405px;
@@ -5707,7 +5707,7 @@ a.animated-button.victoria-four:hover:after {
   position: relative;
 }
 
-.product-item .item-wrapper .image::after {
+.monthly-slider .product-item .item-wrapper .image::after {
   content: "";
   position: absolute;
   width: 240px;
@@ -5719,7 +5719,7 @@ a.animated-button.victoria-four:hover:after {
   z-index: 5;
 }
 
-.product-item .item-wrapper .image {
+.monthly-slider .product-item .item-wrapper .image {
   -webkit-transition: all 0.7s ease-in-out 0s;
   -moz-transition: all 0.7s ease-in-out 0s;
   -o-transition: all 0.7s ease-in-out 0s;
@@ -5737,7 +5737,7 @@ a.animated-button.victoria-four:hover:after {
   padding: 30px;
   background: #ffffff;
 }
-.product-item .item-wrapper .image::before {
+.monthly-slider .product-item .item-wrapper .image::before {
   content: "";
   position: absolute;
   width: 100px;
@@ -5748,7 +5748,7 @@ a.animated-button.victoria-four:hover:after {
   bottom: -10px;
   z-index: 10;
 }
-.product-item .item-wrapper .image::after {
+.monthly-slider .product-item .item-wrapper .image::after {
   content: "";
   position: absolute;
   width: 240px;
@@ -5760,10 +5760,10 @@ a.animated-button.victoria-four:hover:after {
   z-index: 5;
 }
 
-.product-item .item-wrapper .image img {
+.monthly-slider .product-item .item-wrapper .image img {
   width: 100%;
 }
-.product-item .item-wrapper .item-name {
+.monthly-slider .product-item .item-wrapper .item-name {
   display: inline-block;
   width: 100%;
   -webkit-transition: all 0.25s ease-in-out 0s;
@@ -5779,10 +5779,10 @@ a.animated-button.victoria-four:hover:after {
   font-family: 'db_helvethaica_x55_regular';
   color: #1f252b;
 }
-.product-item .item-wrapper .item-name:hover {
+.monthly-slider .product-item .item-wrapper .item-name:hover {
   color: #d91820;
 }
-.product-item .item-wrapper .detail {
+.monthly-slider .product-item .item-wrapper .detail {
   display: inline-block;
   width: 100%;
   height: 3em;
@@ -5795,21 +5795,21 @@ a.animated-button.victoria-four:hover:after {
   margin: 0;
 }
 
-.product-item .item-wrapper .detail-wrapper {
+.monthly-slider .product-item .item-wrapper .detail-wrapper {
   background: #ffffff;
   border: 1px solid #b8a7cb;
   padding: 20px 15px; 
   float: left;
 }
 
-.product-item .item-wrapper .price {
+.monthly-slider .product-item .item-wrapper .price {
   display: inline-block;
   width: 100%;
   text-align: center;
   line-height: 1;
 }
 
-.product-item .item-wrapper .price p {
+.monthly-slider .product-item .item-wrapper .price p {
   color: #d91820;
   font-size: 36px;
   line-height: 30px;
@@ -5817,21 +5817,21 @@ a.animated-button.victoria-four:hover:after {
   font-weight: bold;
 }
 
-.product-item .item-wrapper .price span {
+.monthly-slider .product-item .item-wrapper .price span {
   color: rgba(0, 0, 0, 0.7);
   font-size: 24px;
 }
 
-.product-item .item-wrapper .price span i {
+.monthly-slider .product-item .item-wrapper .price span i {
   text-decoration: line-through;
   font-style: normal;
 }
 
-.product-item .item-wrapper .stars {
+.monthly-slider .product-item .item-wrapper .stars {
   display: inline-block;
   width: 100%;
 }
-.product-item .item-wrapper .stars .br-wrapper {
+.monthly-slider .product-item .item-wrapper .stars .br-wrapper {
   display: inline-block;
 }
 
