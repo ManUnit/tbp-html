@@ -14,12 +14,14 @@ $(document).ready(function () {
 
 	$('.popup-menu').click(function(){
 		$(this).toggleClass('open');
+		$('.menu-container ul li a').removeClass('active')
 		$('.menu-responsive').addClass('active');
 		$('.popup-close').addClass('active');
 		$('body').toggleClass('noScroll');
 	});
 
 	$('.popup-close').click(function(){
+		$('.menu-control .tab-list-wrapper').removeClass('active');
 		$('.menu-responsive').removeClass('active');
 		$('.popup-close').removeClass('active');
 		$('body').toggleClass('noScroll');
@@ -33,7 +35,7 @@ $(document).ready(function () {
 	/* main banner slide */
 	$('.main-banner .slider-control').slick({
 		autoplay: true,
-		dots: false,
+		dots: true,
 		arrows: false,
 		infinite: true,
 		speed: 1200,
@@ -45,10 +47,10 @@ $(document).ready(function () {
 	});
 
 	/* animate header */
-	setTimeout(function(){
-		$('.main-header').addClass('active');
-		$('.main-banner').addClass('active');
-	}, 500);
+	// setTimeout(function(){
+	// 	$('.main-header').addClass('active');
+	// 	$('.main-banner').addClass('active');
+	// }, 500);
 
 	var $monthly_slide = $('.monthly-slider .slider-control');
 	$monthly_slide.slick({
@@ -149,10 +151,12 @@ $(document).ready(function () {
 	    $('.scroll-event').addClass('expand');
 	}
 
-	$('.tab-menu li').mouseenter(function () {
+	$('.tab-menu li').click(function () {
 		var ct_id = $(this).attr('data-id');
 
-		$('.tab-menu li a').removeClass('active');
+		$('.tab-menu li, .tab-menu li a').removeClass('active');
+		$('.menu-control .tab-list-wrapper').addClass('active');
+		$(this).addClass('active');
 		$(this).find('a').addClass('active');
 		$('.tab-list').removeClass('active');
 		$('.tab-list.tab-' + ct_id).addClass('active');
