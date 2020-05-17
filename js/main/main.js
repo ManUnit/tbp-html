@@ -188,6 +188,14 @@ $(window).scroll(function() {
     } else {
     	$(".btn-to-top").removeClass("active");
     }
+
+    var sticky = $('.main-header');
+    var scroll = $(window).scrollTop();
+    if (scroll >= 140) {
+    	sticky.addClass('fixed');
+    } else {
+    	sticky.removeClass('fixed');
+    }
 }); 
 
 

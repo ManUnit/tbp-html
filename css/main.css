@@ -5875,7 +5875,7 @@ a.animated-button.victoria-four:hover:after {
   margin: 0;
   font-weight: bold;
   letter-spacing: 2px;
-  text-shadow: 3px 3px 0 #000000;
+  text-shadow: 4px 4px 0 #650c10;
 }
 
 .section-control.monthly-deal .head-slide .button-control {
@@ -6626,5 +6626,102 @@ a.animated-button.victoria-four:hover:after {
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
+
+.form-subscribe .select2-container--default .select2-selection--single .select2-selection__arrow {
+  display: none;
+}
+
+ul#countdown {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+ul#countdown li {
+  font-family: 'db_helvethaica_x75_bd';
+  display: flex;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin: 0 6px;
+  min-width: 65px;
+  background: rgba(72,34,122,1);
+  background: -moz-linear-gradient(top, rgba(72,34,122,1) 0%, rgba(114,69,159,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(72,34,122,1)), color-stop(100%, rgba(114,69,159,1)));
+  background: -webkit-linear-gradient(top, rgba(72,34,122,1) 0%, rgba(114,69,159,1) 100%);
+  background: -o-linear-gradient(top, rgba(72,34,122,1) 0%, rgba(114,69,159,1) 100%);
+  background: -ms-linear-gradient(top, rgba(72,34,122,1) 0%, rgba(114,69,159,1) 100%);
+  background: linear-gradient(to bottom, rgba(72,34,122,1) 0%, rgba(114,69,159,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48227a', endColorstr='#72459f', GradientType=0 );
+  box-shadow: 4px 4px 0 #650c10;
+}
+
+ul#countdown li .number {
+  display: inline-block;
+  line-height: 30px;
+}
+ul#countdown li .label {
+  font-family: 'db_helvethaica_x45_li';
+  color: #adafb2;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  padding-top: 120px;
+}
+.main-header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0); 
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, 0); 
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0); 
+}
+
+.main-header.fixed {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.main-header .logo-wrapper {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.main-header .menu-wrapper .main-menu {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+.main-header.fixed .logo-wrapper {
+  margin-top: 16px;
+}
+
+.main-header.fixed .menu-wrapper .main-menu {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+} 
 
 /* end of update homepage */
