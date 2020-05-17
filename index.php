@@ -1345,8 +1345,8 @@ include 'inc/header.php';
 <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 
 <script>
-	var getHeight = $('.product-item .detail-wrapper').outerHeight();
-	$('.monthly-deal .bg-white').height(getHeight + 55);
+	var getHeight = $('.product-item .detail-wrapper').outerHeight(true);
+	$('.monthly-deal .bg-white').height(getHeight + 8);
 
 	$('.select2').select2();
 

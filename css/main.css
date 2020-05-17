@@ -5682,7 +5682,7 @@ a.animated-button.victoria-four:hover:after {
 
 .section-control.monthly-deal {
   background-image: url('../images/home/bg-monthly-deal.jpg');
-  padding: 40px 0;
+  padding: 40px 0 0;
   position: relative;
 }
 
@@ -5717,6 +5717,14 @@ a.animated-button.victoria-four:hover:after {
   width: 100%;
   left: 0;
   bottom: 0;
+}
+
+.monthly-slider .product-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
 .monthly-slider .product-item .item-wrapper {
