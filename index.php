@@ -1244,7 +1244,7 @@ include 'inc/header.php';
 					</div>
 					<div class="vdo-control">
 						<div class="row">
-							<div class="col-sm-3">
+							<div class="col-sm-6 col-md-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -1258,7 +1258,7 @@ include 'inc/header.php';
 									<a data-fancybox href="https://www.youtube.com/watch?v=LVYUss6pJqQ" class="play-vdo"></a>
 								</div>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-6 col-md-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -1272,7 +1272,7 @@ include 'inc/header.php';
 									<a data-fancybox href="https://www.youtube.com/watch?v=pD2Bl0ZhBRQ" class="play-vdo"></a>
 								</div>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-6 col-md-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>
@@ -1286,7 +1286,7 @@ include 'inc/header.php';
 									<a data-fancybox href="https://www.youtube.com/watch?v=kU8EzexFVIM" class="play-vdo"></a>
 								</div>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-6 col-md-3">
 								<div class="vdo-item">
 									<div class="txt-box">
 										<p>

@@ -5313,6 +5313,39 @@ a.animated-button.victoria-four:hover:after {
   right: -40px;
 }
 
+.catalog-slider .slick-dots {
+  padding: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  list-style: none;
+  padding-top: 28px;
+  justify-content: center;
+}
+
+.catalog-slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.catalog-slider .slick-dots li button {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #5c2e91;
+  background: #ffffff;
+  text-indent: -99999px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.catalog-slider .slick-dots li.slick-active button {
+  border: 2px solid #d91820;
+  background: #d91820;
+}
+
 .section-control.trendy {
   padding: 40px 0;
 }
@@ -5862,6 +5895,39 @@ a.animated-button.victoria-four:hover:after {
 }
 .monthly-slider .product-item .item-wrapper .stars .br-wrapper {
   display: inline-block;
+}
+
+.monthly-slider .slick-dots {
+  padding: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  list-style: none;
+  padding-top: 28px;
+  justify-content: center;
+}
+
+.monthly-slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.monthly-slider .slick-dots li button {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #5c2e91;
+  background: #ffffff;
+  text-indent: -99999px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.monthly-slider .slick-dots li.slick-active button {
+  border: 2px solid #d91820;
+  background: #d91820;
 }
 
 .section-control.monthly-deal .head-slide {
@@ -6484,6 +6550,11 @@ a.animated-button.victoria-four:hover:after {
   border: 2px solid #d91820;
   background: #d91820;
 }
+
+.main-banner .item img {
+  width: 100%;
+}
+
 
 .main-header .menu-wrapper .main-menu .language {
   display: inline-block;
