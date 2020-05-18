@@ -6700,6 +6700,7 @@ a.animated-button.victoria-four:hover:after {
   -ms-transition: all .25s ease-in-out 0s;
   -o-transition: all .25s ease-in-out 0s;
   transition: all .25s ease-in-out 0s;
+  align-self: center;
 }
 
 .free-listing a:hover {
