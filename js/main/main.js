@@ -22,15 +22,14 @@ $(document).ready(function () {
 
 	$('.popup-close').click(function(){
 		$('.menu-control .tab-list-wrapper').removeClass('active');
+		$('.menu-container ul li a').removeClass('active');
 		$('.menu-responsive').removeClass('active');
 		$('.popup-close').removeClass('active');
 		$('body').toggleClass('noScroll');
 	});
 
-
 	/* refresh to top page */
 	$(this).scrollTop(0);
-
 
 	/* main banner slide */
 	$('.main-banner .slider-control').slick({
@@ -59,8 +58,38 @@ $(document).ready(function () {
 		centerPadding: 0,
 		arrows: true,
 		speed: 1200,
+		arrows: false,
 		slidesToScroll: 1,
-		draggable: false
+		draggable: false,
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 420,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		]
 	});
 
 	var $catalog_slide = $('.catalog-slider .slider-control');
@@ -68,10 +97,39 @@ $(document).ready(function () {
 		slidesToShow: 6,
 		slidesToScroll: 1,
 		centerPadding: 0,
-		arrows: true,
+		arrows: false,
 		speed: 1200,
 		slidesToScroll: 1,
-		draggable: false
+		draggable: false,
+		responsive: [
+		{
+			breakpoint: 991,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 420,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		]
 	});
 
 	var $industries_slide = $('.industries-mobile .slider-control');
@@ -151,7 +209,7 @@ $(document).ready(function () {
 	    $('.scroll-event').addClass('expand');
 	}
 
-	$('.tab-menu li').click(function () {
+	$('.tab-menu li').mouseenter(function () {
 		var ct_id = $(this).attr('data-id');
 
 		$('.tab-menu li, .tab-menu li a').removeClass('active');
