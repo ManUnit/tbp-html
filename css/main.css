@@ -6808,4 +6808,8 @@ body {
   height: 0;
 } 
 
+#menu-toggle::after {
+  display: none !important;
+}
+
 /* end of update homepage */

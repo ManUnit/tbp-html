@@ -1230,6 +1230,36 @@
   .section-control.request-quotation .cover-quotation {
     display: none;
   }
+  .main-header::after {
+    -ms-transform: scale(0) rotate(0.02deg);
+    -webkit-transform: scale(0) rotate(0.02deg);
+    transform: scale(0) rotate(0.02deg);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    -webkit-transition: all 0.45s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    -o-transition: all 0.45s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    transition: all 0.45s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 0;
+    cursor: default;
+  }
+
+  .main-header.open::after {
+    -ms-transform: scale(90) rotate(0.02deg);
+    -webkit-transform: scale(90) rotate(0.02deg);
+    transform: scale(90) rotate(0.02deg);
+    -webkit-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0s !important;
+    -o-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0s !important;
+    transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0s !important;
+  }
+
 }
 @media screen and (max-height: 420px) {
   .main-header .menu-wrapper .form-wrapper .form-control {
