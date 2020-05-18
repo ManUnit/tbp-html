@@ -1079,6 +1079,9 @@
   body.noScroll {
     overflow: hidden;
     position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
   }
   .main-header {
     padding: 10px 0;
