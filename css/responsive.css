@@ -1504,14 +1504,8 @@
   .main-header .menu-wrapper .top-menu {
     margin-top: 0;
   }
-  .menu-onMobile {
-    top: 140px;
-  }
   .main-header .menu-wrapper .top-menu ul.user-menu {
     left: 0;
-  }
-  .main-header .menu-wrapper.active {
-    top: 60px;
   }
   .main-footer .nav-group-footer a.app-download img {
     max-width: 150px;
