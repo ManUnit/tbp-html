@@ -10,7 +10,6 @@ $(document).ready(function () {
 		$('.menu-onMobile').toggleClass('active');
 		$('.main-header .menu-wrapper').toggleClass('active');
 		$('body').toggleClass('noScroll');
-		$('.main-header').toggleClass('open');
 	});
 
 	$('.popup-menu').click(function(){

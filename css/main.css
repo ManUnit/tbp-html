@@ -286,8 +286,8 @@ body.innerPage .main-header {
 }
 .menu-onMobile {
   position: fixed;
-  right: -10%;
-  top: 60px;
+  top: 0;
+  left: 0;
   bottom: 0;
   width: 100%;
   max-width: 100%;
@@ -297,6 +297,7 @@ body.innerPage .main-header {
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 99999;
+  background: pink;
   -webkit-transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -o-transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
@@ -308,7 +309,6 @@ body.innerPage .main-header {
   -webkit-transition: all 0.65s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -o-transition: all 0.65s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   transition: all 0.65s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-  right: 0;
   opacity: 1;
   visibility: visible;
 }
