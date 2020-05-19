@@ -23,6 +23,14 @@
 					<i class="ico-user user-plus"></i>
 				</div>
 			</li>
+			<li>
+				<div class="form-wrapper">
+					<form action="">
+						<input type="text" class="form-control" placeholder="Search Products">
+						<button><i class="ico-letter"></i>ค้นหาสินค้า</button>
+					</form>
+				</div>
+			</li>
 			<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
 				<a href="index.php">หน้าแรก</a>
 			</li>
