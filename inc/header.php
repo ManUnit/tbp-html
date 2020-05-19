@@ -11,6 +11,42 @@
 			<span></span>
 		</div>
 	</div>
+	<div class="menu-onMobile">
+		<div class="logo">
+			<a href=""><img src="images/logo/logo.jpg" alt=""></a>
+		</div>
+		<ul>
+			<li>
+				<div class="nav-user">
+					<span>เข้าสู่ระบบ</span>
+					<i class="ico-user user"></i>
+				</div>
+				<div class="nav-user">
+					<span>ลงทะเบียน</span>
+					<i class="ico-user user-plus"></i>
+				</div>
+			</li>
+			<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
+				<a href="index.php">หน้าแรก</a>
+			</li>
+			<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?> has-menu" >
+				<a href="products-category.php">บริษัทผู้จัดจำหน่าย</a>
+			</li>
+			<li class="<?php if ( $page_name == '') { echo 'active'; } ?>">
+				<a href="">ค้นหาผู้ซื้อ</a>
+			</li>
+			<li class="<?php if ( $page_name == 'service') { echo 'active'; } ?>">
+				<a href="service.php">บริการของเรา</a>
+			</li>
+			<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
+				<a href="join-us.php">ร่วมงานกับเรา</a>
+			</li>
+			<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
+				<a href="contact.php">ติดต่อเรา</a>
+			</li>
+		</ul>
+	</div>
+
 	<div class="container">
 		<div class="logo-wrapper">
 			<div class="logo">
@@ -72,27 +108,7 @@
 						</div>
 					</li>
 				</ul>
-
-			</div>
-			<div class="menu-onMobile">
-				<ul>
-					<li class="<?php if ( $page_name == 'home') { echo 'active'; } ?>">
-						<a href="index.php">Home</a>
-					</li>
-					<li class="<?php if ( $page_name == 'products') { echo 'active'; } ?>">
-						<a href="products-category.php">Products</a>
-					</li>
-					<li class="<?php if ( $page_name == 'join_us') { echo 'active'; } ?>">
-						<a href="join-us.php">Join Us</a>
-					</li>
-					<li class="<?php if ( $page_name == 'service') { echo 'active'; } ?>">
-						<a href="service.php">My Service</a>
-					</li>
-					<li class="<?php if ( $page_name == 'contact') { echo 'active'; } ?>">
-						<a href="contact.php">Contact Us</a>
-					</li>
-				</ul>
-			</div>
+			</div>			
 		</div>
 	</div>
 </div>
