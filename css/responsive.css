@@ -1248,6 +1248,9 @@
   .section-control.request-quotation .cover-quotation {
     display: none;
   }
+  .menu-control .tab-list-wrapper.active {
+    display: none;
+  }
 }
 @media screen and (max-height: 420px) {
   .main-header .menu-wrapper .form-wrapper .form-control {
