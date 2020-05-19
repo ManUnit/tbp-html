@@ -158,7 +158,7 @@ $(document).ready(function () {
 	});
 
 	/* select language */
-	$('.options').flagStrap({
+	$('#options').flagStrap({
 		countries: { "ENG": "EN", "TH": "TH" },
 		buttonSize: "btn-sm",
 		scrollable: false,

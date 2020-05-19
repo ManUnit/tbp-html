@@ -95,7 +95,7 @@
 					</div>
 				</div>
 				<div class="language">
-					<div class="options" data-selected-country="TH"></div>
+					<div id="options" data-selected-country="TH"></div>
 				</div>
 			</div>
 			<div class="top-menu">
