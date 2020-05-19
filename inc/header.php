@@ -12,9 +12,6 @@
 		</div>
 	</div>
 	<div class="menu-onMobile">
-		<div class="logo">
-			<a href=""><img src="images/logo/logo.jpg" alt=""></a>
-		</div>
 		<ul>
 			<li>
 				<div class="nav-user">

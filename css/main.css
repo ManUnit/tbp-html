@@ -289,6 +289,7 @@ body.innerPage .main-header {
   top: 0;
   left: 0;
   bottom: 0;
+  padding-top: 70px;
   width: 100%;
   max-width: 100%;
   max-height: 100%;
@@ -297,7 +298,7 @@ body.innerPage .main-header {
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 99999;
-  background: pink;
+  background: #ffffff;
   -webkit-transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -o-transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
@@ -6810,6 +6811,28 @@ body {
 
 #menu-toggle::after {
   display: none !important;
+}
+
+.menu-onMobile .nav-user {
+  display: inline-block;
+  cursor: pointer;
+}
+.menu-onMobile .nav-user span {
+  color: #5d2f8f;
+  display: inline-block;
+  margin-right: 5px;
+}
+.menu-onMobile .nav-user i.ico-user {
+  width: 22px;
+  height: 22px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.menu-onMobile .nav-user i.ico-user.user {
+  background-image: url('../images/icons/ico-user.png');
+}
+.menu-onMobile .nav-user i.ico-user.user-plus {
+  background-image: url('../images/icons/ico-user_2.png');
 }
 
 /* end of update homepage */
