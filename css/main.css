@@ -6240,8 +6240,9 @@ a.animated-button.victoria-four:hover:after {
   background-image: url('../images/icons/ico_15.png');
 }
 .menu-container ul {
-  padding: 0;
+  padding: 10px 0 0 10px;
   margin: 0;
+  margin-top: -10px;
 }
 .menu-container ul li {
   display: inline-block;
@@ -6250,16 +6251,17 @@ a.animated-button.victoria-four:hover:after {
   padding-left: 5px;
   position: relative;
 }
-/*.menu-container ul li.active {
-  background: rgba(255, 255, 255, 0.95);
+.menu-container ul li.active {
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 3px 0 0 3px;
-}*/
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
 .menu-container ul li::after {
   content: "";
   position: absolute;
   left: auto;
   right: 0;
-  top: 15px;
+  top: 16px;
   width: 20px;
   height: 20px;
   -webkit-transform: translateY(-50%) rotate(90deg);
