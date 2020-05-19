@@ -26,6 +26,7 @@ $(document).ready(function () {
 		$('.menu-responsive').removeClass('active');
 		$('.popup-close').removeClass('active');
 		$('body').toggleClass('noScroll');
+		$('.menu-container ul li').removeClass('active');
 	});
 
 	/* refresh to top page */
