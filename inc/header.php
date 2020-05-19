@@ -13,14 +13,20 @@
 	</div>
 	<div class="menu-onMobile">
 		<ul>
-			<li>
-				<div class="nav-user">
-					<span>เข้าสู่ระบบ</span>
-					<i class="ico-user user"></i>
+			<li class="user-control">
+				<div class="user-wrapper">
+					<div class="nav-user">
+						<span>เข้าสู่ระบบ</span>
+						<i class="ico-user user"></i>
+					</div>
+					<div class="nav-user">
+						<span>ลงทะเบียน</span>
+						<i class="ico-user user-plus"></i>
+					</div>
 				</div>
-				<div class="nav-user">
-					<span>ลงทะเบียน</span>
-					<i class="ico-user user-plus"></i>
+				<div class="select-lang">
+					<a href="" class="active">ไทย</a>
+					<a href="">English</a>
 				</div>
 			</li>
 			<li>
@@ -89,7 +95,7 @@
 					</div>
 				</div>
 				<div class="language">
-					<div id="options" data-selected-country="TH"></div>
+					<div class="options" data-selected-country="TH"></div>
 				</div>
 			</div>
 			<div class="top-menu">
