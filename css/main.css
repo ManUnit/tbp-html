@@ -7012,7 +7012,7 @@ body {
   height: 3px;
   border-radius: 3px;
   background: #d91820;
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   width: 100%;
   overflow: hidden;
