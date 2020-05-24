@@ -5,6 +5,56 @@ include 'inc/meta.php';
 include 'inc/header.php';
 ?>
 
+<div class="menu-slider-onMobile">
+	<ul>
+		<li class="active">
+			<a href="#">Construction</a>
+		</li>
+		<li>
+			<a href="#">Machinery</a>
+		</li>
+		<li>
+			<a href="#">Tools & Instruments</a>
+		</li>
+		<li>
+			<a href="#">Material Handling</a>
+		</li>
+		<li>
+			<a href="#">Valves Pumps Pipes</a>
+		</li>
+		<li>
+			<a href="#">Metal & Metal Working</a>
+		</li>
+		<li>
+			<a href="#">Chemical Plastics Gas</a>
+		</li>
+		<li>
+			<a href="#">Electric Power</a>
+		</li>
+		<li>
+			<a href="#">Packaging & Storaging</a>
+		</li>
+		<li>
+			<a href="#">Automotive Industry</a>
+		</li>
+		<li>
+			<a href="#">Renewable Energy</a>
+		</li>
+		<li>
+			<a href="#">Office Automation</a>
+		</li>
+		<li>
+			<a href="#">Air Conditioning</a>
+		</li>
+		<li>
+			<a href="#">Logistics & Transpot</a>
+		</li>
+		<li>
+			<a href="#">Services Business</a>
+		</li>
+	</ul>
+</div>
+
 <div class="section-control main-category">
 	<div class="container">
 		<div class="menu-control">

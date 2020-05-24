@@ -981,6 +981,23 @@
   .section-control.counter-number ul.number-control {
     padding-right: 0;
   }
+
+  body {
+    padding-top: 100px;
+  }
+
+  .menu-slider-onMobile { 
+    display: block;
+    top: 60px;
+  }
+
+  .main-header.fixed {
+    box-shadow: none;
+  }
+
+  .main-header.fixed .logo-wrapper {
+    margin-top: 5px;
+  }
 }
 @media screen and (max-width: 767px) {
   .main-header .logo-wrapper {
@@ -1267,6 +1284,19 @@
   .main-header .menu-wrapper {
     display: none !important;
   }
+
+  .main-header {
+    border-bottom: 1px solid #dedede;
+  }
+
+  body {
+    padding-top: 110px;
+  }
+
+  .menu-slider-onMobile { 
+    top: 70px;
+  }
+
 }
 @media screen and (max-height: 420px) {
   .main-header .menu-wrapper .form-wrapper .form-control {
