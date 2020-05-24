@@ -6983,6 +6983,7 @@ body {
   -webkit-overflow-scrolling: touch;
   overflow: -moz-scrollbars-none;  
   -ms-overflow-style: none;
+  background: red;
 }
 
 .menu-slider-onMobile ul::-webkit-scrollbar { 
