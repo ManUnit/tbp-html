@@ -6980,6 +6980,12 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  overflow: -moz-scrollbars-none;  
+  -ms-overflow-style: none;
+}
+
+.menu-slider-onMobile ul::-webkit-scrollbar { 
+  width: 0 !important 
 }
 
 .menu-slider-onMobile ul li {
