@@ -6983,11 +6983,11 @@ body {
   -webkit-overflow-scrolling: touch;
   overflow: -moz-scrollbars-none;  
   -ms-overflow-style: none;
-  background: red;
 }
 
 .menu-slider-onMobile ul::-webkit-scrollbar { 
-  width: 0 !important 
+  width: 0 !important;
+  visibility: hidden; 
 }
 
 .menu-slider-onMobile ul li {
