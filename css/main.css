@@ -6976,6 +6976,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+  padding-bottom: 3px;
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
@@ -6991,7 +6992,8 @@ body {
 .menu-slider-onMobile ul li {
   display: inline-flex;
   margin-right: 15px;
-  padding-bottom: 3px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .menu-slider-onMobile ul li a {
