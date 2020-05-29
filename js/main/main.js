@@ -221,6 +221,14 @@ $(document).ready(function () {
 		$('.tab-list.tab-' + ct_id).addClass('active');
 	});
 
+	$('.tab-list-wrapper .tab-list').mouseleave(function () {
+		$('.tab-menu li, .tab-menu li a').removeClass('active');
+		$('.link-detail').removeClass('active');
+		$('.link-menu li a').removeClass('active');
+		$('.menu-container ul li a').removeClass('active');
+		$('.menu-control .tab-list-wrapper').removeClass('active');
+	});
+
 	$('.link-menu li').mouseenter(function () {
 		var lv1_id = $(this).attr('tab-id');
 		var lv2_id = $(this).attr('data-id');

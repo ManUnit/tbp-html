@@ -7029,4 +7029,12 @@ body {
   visibility: visible;
 }
 
+.menu-control .popup-close {
+  display: none;
+}
+
+.pageinner-wrapper .menu-responsive .popup-close {
+  display: none;
+}
+
 /* end of update homepage */
